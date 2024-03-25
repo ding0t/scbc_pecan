@@ -7,9 +7,11 @@ Learn how systems are hacked to protect our secrets.
 We will cover 8 weeks of lessons in the lead up to the CTF
 
 1. Introduction
-2. System fundamentals
-3. Programming
-4. Digital forensics
+   a. Why cyber security
+   b. About Capture the flag
+3. System fundamentals
+4. Programming
+5. Digital forensics
    a. File systems
    b. Network forensics 
    c. File forensics

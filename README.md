@@ -1,7 +1,7 @@
 # scbc_pecan
 Training material for the Australian PECAN+ CTF competition. It contains a series of lessons based on lab work.
 
-# Lessons an labs
+# Lessons and labs
 Learn how systems are hacked to protect our secrets.
 
 We will cover 8 weeks of lessons in the lead up to the CTF
@@ -34,7 +34,7 @@ We will cover 8 weeks of lessons in the lead up to the CTF
 * [PECAN+ prior challenges - yes](https://pecanplus.ecusri.org/?page=challenges)
 * [picoCTF gym - yes ](https://play.picoctf.org/practice)
 * [CTF learn - maybe](https://ctflearn.com/)
-* [GROK learning] - online courses...(https://groklearning.com/)
+* [GROK learning - online courses...](https://groklearning.com/)
 
 # References
 * [Main PECAN+ site](https://pecanplus.ecusri.or)

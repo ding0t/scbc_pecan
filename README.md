@@ -7,30 +7,30 @@ Learn how systems are hacked to protect our secrets.
 We will cover 8 weeks of lessons in the lead up to the CTF
 
 1. Introduction
-   a. Why cyber security
-   b. About Capture the flag
+      a. Why cyber security
+      b. About Capture the flag
 3. System fundamentals
 4. Programming
 5. Digital forensics
-   a. File systems
-   b. Network forensics 
-   c. File forensics
-   d. Memory forensics
+      a. File systems
+      b. Network forensics 
+      c. File forensics
+      d. Memory forensics
 6. Hiding secrets
-   a. Hashing
-   b. Cryptography
-   c. Steganography
+      a. Hashing
+      b. Cryptography
+      c. Steganography
 8. Reverse engineering
-   a. Intro to GHidra
+      a. Intro to GHidra
 9. Open source intelligence operation (OSINT)
 10.  Red team operations
-   a. Reconaisance
-   b. Exploitation
-      i. Web exploitation
-      ii. SQLi
-   c. Privilige escalation
-   d. Persistance and lateral movement
-   e. Exfiltraiton
+      a. Reconaisance
+      b. Exploitation
+            i. Web exploitation
+            ii. SQLi
+      c. Privilige escalation
+      d. Persistance and lateral movement
+      e. Exfiltraiton
 
 # Resources
 * [PECAN+ prior challenges - yes](https://pecanplus.ecusri.org/?page=challenges)

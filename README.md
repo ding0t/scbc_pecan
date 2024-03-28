@@ -1,6 +1,13 @@
 # scbc_pecan
 Training material for the Australian PECAN+ CTF competition. It contains a series of lessons based on lab work.
 
+# Approach
+1. Lab based learning from week 1.
+1. Kali as base OS.
+1. Ability to do labs from home.
+1. Each lab completes a CTF.
+1. Key learning outcomes identified, with ethics and transferable skills
+   
 # Lessons and labs
 Learn how systems are hacked to protect our secrets.
 
@@ -12,6 +19,7 @@ We will cover 8 weeks of lessons in the lead up to the CTF
       1. Ethical hacking 
 1. System fundamentals
 1. Programming
+      1. Python excercises
 1. Digital forensics
       1. File systems
       1. Network forensics 

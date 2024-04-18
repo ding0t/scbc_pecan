@@ -1,17 +1,19 @@
 # Objectives
 
-1. intro to ai pair programming
-1. what is an ai coding vs ml
-1. awareness of  different ai coding tools
-1.
+1. Generative AI
+1. [AI ethics](#ai-ethics)
+1. Intro to AI pair programming
+1. awareness of  different AI coding tools
 
-# Using AI for programming
+## Generative AI
 
-AI is a useful tool but be aware it does get things wrong. It is trained on public code, and some of this code is inaccurate. In some tests, AI generally performed a bit better than the average first year university programming students. [ref]()
+The creation of new content using AI. The AI model collates all the information it can access, and produces a aggregated new content from that data.
+
+This is great for most things, but AI will get things wrong, and will miss out on deeper expertise. So it is best suited to simpler tasks, and where a problem has an answer that is absolute.
 
 ## AI ethics
 
-🧠 _Some AI usage and ethics to think about_
+🧠 _Some AI usage and ethics to apply_
 
 1. Use AI for approprate tasks
     1. Maintain control of major decision making
@@ -21,16 +23,17 @@ AI is a useful tool but be aware it does get things wrong. It is trained on publ
     1. Use the generated content to learn
 1. Acknowledge use of a generative AI tool
 1. Be aware of AI hallicination - the AI can collate information in a way that generates false information, both deliberately and accidentaly. The AI does not understand the content it generates.
+    * Example of when this [matters](https://www.bbc.com/news/world-us-canada-65735769)
 
 
-## Generative AI
+# Using AI for programming
 
-The creation of new content using AI
+AI is a useful tool but be aware it does get things wrong. It is trained on public data, and some of this data is inaccurate. 
 
 
 ## Pair programming with AI
 
-We can program with generative AI using chat to ask for a program function to give a starting point.
+We can program with generative AI using chat to ask for a program function to give a starting point. 
 
 To do this effectively:
 
@@ -61,7 +64,6 @@ We already know how we want to solve it
 ```
 write a python program to take the list of numbers:  [315, 324, 363, 294, 294, 363], divide each number in the list by three, then print the corresponding ascii value of each number as a string
 ```
-
 
 
 # References

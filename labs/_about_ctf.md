@@ -59,6 +59,7 @@ _these tools are a must_
 1. [Ghidra - reverse engineering](https://ghidra-sre.org/)
 1. [wxHexEditor - hex editor]
 1. [Wireshark](https://www.wireshark.org/)
+1. [ChatGPT](https://chat.openai.com/)
 
 
 ## CTF strategy

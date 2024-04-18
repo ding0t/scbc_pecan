@@ -11,7 +11,7 @@ PicoCTF is s site that contains lots of little CTF challenges, they are represen
 # Explore the site
 
 ## Join the classroom
-The invite code is `C...`
+20 accounts have been pre-registered
 
 ## Challenges
 

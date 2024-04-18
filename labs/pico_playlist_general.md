@@ -50,7 +50,7 @@ _remember to submit flags in the format `picoCTF{flag}`_
 _try using an interactive Python shell to solve this_
 
 ## WarmedUp
-_try using [cyberchef](https://gchq.github.io/CyberChef) to solve this_
+_try using [cyberchef](https://gchq.github.io/CyberChef/) to solve this_
 
 
 # Problem set 2

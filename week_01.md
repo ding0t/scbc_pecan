@@ -1,3 +1,6 @@
+Welcome to the first week of PECAN training. The aim is to get you ready to compete, but you will learn some valuable skills along the way.
+
+
 # Objectives
 
 1. [Why learn cyber security](#about-cyber-security)

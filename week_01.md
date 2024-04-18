@@ -5,6 +5,7 @@
 1. [Understand CTF](labs/_about_ctf.md)
 1. [set up hacking station](labs/_about_hacking_station.md)
 1. [set up pico ctf account](labs/_about_picoctf.md)
+1. [pico playlist - general](labs/pico_playlist_general.md)
 
 # About cyber security
 Our objective with these modules is to learn more about cyber security and have fun doing it!

@@ -1,4 +1,6 @@
-Welcome to the first week of PECAN training. The aim is to get you ready to compete, but you will learn some valuable skills along the way.
+# Welcome to PECAN training!
+
+Welcome to the first week of PECAN training. The aim of these training sessions is to get you ready to compete, but most importantly, you will learn some valuable skills along the way.
 
 
 # Objectives
@@ -14,15 +16,16 @@ Welcome to the first week of PECAN training. The aim is to get you ready to comp
 Our objective with these modules is to learn more about cyber security and have fun doing it!
 
 Cyber security typically involves the CIA of data:
-1. Confidentiality - my data can only been seen by those authorised.
-1. Integrity- my data can only be changed by those authorised.
-1. Availability - I can access my data when I need it.
+> 1. **Confidentiality** - my data can only been seen by those authorised.
+> 1. **Integrity**- my data can only be changed by those authorised.
+> 1. **Availability** - I can access my data when I need it.
 
 Different data types and uses typically vary in sensitivity across the three. For example, weather information may be available publically, but it causes major issues when it is unavailable. Whereas, the secret position of a Submarine could be missed for a bit, but undermines the safety of people if its confidentiality is broken.
 
 Participating in this series will give you some skills to protect your data, and an idea of what a career in cyber can include.
 
-![cant get hacked](/img/Security-meme-35.png)
+
+<img src="img/Security-meme-35.png" width="400" height="200">
 
 
 # Ethical hacking

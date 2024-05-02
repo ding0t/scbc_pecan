@@ -15,6 +15,7 @@ Learn how systems are hacked to protect our secrets. We will aim to cover using 
       1. Why cyber security
       1. About Capture the flag
       1. Ethical hacking 
+1. General skills
 1. Programming
       1. Python excercises
 1. Digital forensics
@@ -23,22 +24,16 @@ Learn how systems are hacked to protect our secrets. We will aim to cover using 
       1. File system
       1. Memomory
       1. Network
-1. Hiding secrets
+1. Hiding secrets (cryptography)
       1. Hashing
-      1. Cryptography
+      1. Encryption
       1. Steganography
+1. Web exploitation
 1. Reverse engineering
       1. Strings
       1. Intro to Ghidra
 1. Open source intelligence operation (OSINT)
-1. Red team operations
-      1. Reconaisance
-      1. Exploitation
-            1. Web exploitation
-            1. SQLi
-      1. Privilige escalation
-      1. Persistance and lateral movement
-      1. Exfiltraiton
+
 
 # Resources
 * [PECAN+ prior challenges](https://pecanplus.ecusri.org/?page=challenges)

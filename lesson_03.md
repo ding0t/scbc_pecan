@@ -52,9 +52,11 @@
 
 A binary to text encoding. That means it can stuff any sequence of bits into a text representation of those bits.
 
+For more on th etopic see [here](https://www.freecodecamp.org/news/what-is-base64-encoding/).
+
 ### Why it exists
 
-1. To avoid the interpritation of bytes as instructions by a system handling the data.
+1. To avoid the interpritation of bytes as instructions (special or control charachters) by a system/protocol handling the data.
 
 
 ### Why know it
@@ -63,8 +65,9 @@ Base64 is exceptionally common in challenges.
  
 ### How it is used
 
-1. Email attachments are typically encoded
+1. Email attachments are typically encoded - this was the first use case for base64
 1. It is used allot in web data transfers
+1. Storing binary data inside a text based system (like a web cookie)
 
 ## Some tests
 

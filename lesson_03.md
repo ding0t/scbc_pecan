@@ -5,9 +5,11 @@
 1. Finish off general playlist  [Skills II problems 3 has nice walkthroughs!](/labs/pico_playlist_general_2_3.md)
 1. [bases](https://play.picoctf.org/practice?originalEvent=1&page=1&search=bases)
 
-# Objectives
+# Objectives 
 
 1. Understand base64
+
+<img src="img/" width="400" height="200">
 
 # Expected base knowledge
 

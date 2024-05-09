@@ -8,11 +8,11 @@
 # Objectives 
 
 1. Understand base64
-
+1. Finish off the general challenges in picoCTF
 
 # Expected base knowledge
 
-We need to have these foundational skills. If you need to strengthen them, do some research, the general skills challenges, and ask for help!
+We need to be getting a good at these foundational skills: 
 
 ### Computing fundamentals
 
@@ -53,6 +53,10 @@ For more information:
 1. Use the Python interactive shell
 
 # But I dont feel like a 1337 hax0r?
+
+<img src="img/1337b.png" width="500" height="300">
+
+If you need to strengthen your foundations:
 
 1. Watch the pico general skills [video1](https://www.youtube.com/watch?v=3OawXnTELqA) and [video2](https://www.youtube.com/watch?v=FJ9le5rFGnA)
 1. Finish all the picoCTF general skills challenges

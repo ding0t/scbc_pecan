@@ -22,6 +22,7 @@ This is great for most things, but AI will get things wrong, and will miss out o
     1. Can you verify correctness of the content
     1. Use the generated content to learn
 1. Acknowledge use of a generative AI tool
+1. Be aware of the age of the data the AI was trained on - e.g. ChatGPT 3.5 was trained 2 years ago.
 1. Be aware of AI hallicination - the AI can collate information in a way that generates false information, both deliberately and accidentaly. The AI does not understand the content it generates.
     * Example of when this [matters](https://www.bbc.com/news/world-us-canada-65735769)
 

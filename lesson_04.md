@@ -3,8 +3,13 @@
 # Objectives 
 
 1. Python fu ++
+1. Try out generative AI
+1. Continue building foundational skills
+1. Progress to Crackmes
 
 # Labs
+
+The labs are self paced - but you can ask for a run through!
 
 1. Finish off the general challenges in picoCTF
     * [General 2-1 updated last two walthroughs](./labs/pico_playlist_general_2_1.md) - it was common to have issues with [python wrangling](https://play.picoctf.org/playlists/14?m=100)

@@ -8,6 +8,7 @@
 
 1. Finish off the general challenges in picoCTF
     * [General 2-1 updated last two walthroughs](./labs/pico_playlist_general_2_1.md) - it was common to have issues with [python wrangling](https://play.picoctf.org/playlists/14?m=100)
+    * [General 2-3](./labs/pico_playlist_general_2_3.md)
 1. Get into some [crackmes](./labs/pico_general_crackme.md)
 1. Try out the PECAN [Love letter](https://pecanplus.ecusdf.org/?page=challenges&challenge=loveletter)
 
@@ -33,7 +34,20 @@ It is a high level language, with emphasis on code readability.
 
 If you download Python - have a look at it first. Its a good habit to do a basic traige - *"is this what I am expecting*" because plenty of malware gets distributed in dodgy code.
 
+You can view it in a terminal using either:
 
+```sh
+# a quick basic view
+cat
+# or a nicer view with editing
+nano 
+```
+
+## Writing Python
+
+As challenges progress you will need to start writing some Python to help. If you are familiar with Python, sue the tool you are familiar with
+
+In Kali we will have 
 
 ## Help in the interpreter
 

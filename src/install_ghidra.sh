@@ -1,0 +1,60 @@
+#!/bin/bash
+
+
+
+# Define the URL of the Oracle JDK 11 tar.gz file
+JDK_URL="https://corretto.aws/downloads/latest/amazon-corretto-17-x64-linux-jdk.tar.gz"
+
+# Define the directory to download JDK into
+DOWNLOAD_DIR="/tmp"
+
+# Define the directory to install JDK into
+INSTALL_DIR="/opt/java"
+
+# Download JDK tar.gz file
+echo "Downloading JDK..."
+wget --no-check-certificate --no-cookies --header "Cookie: oraclelicense=accept-securebackup-cookie" -P $DOWNLOAD_DIR $JDK_URL
+
+# Extract JDK tar.gz file
+echo "Extracting JDK..."
+mkdir -p $INSTALL_DIR
+tar -xf "${DOWNLOAD_DIR}/jdk-11.0.12_linux-x64_bin.tar.gz" -C $INSTALL_DIR --strip-components=1
+
+# Add JDK to PATH and set JAVA_HOME
+echo "Updating PATH and JAVA_HOME..."
+echo "export PATH=\$PATH:$INSTALL_DIR/bin" >> ~/.bashrc
+echo "export JAVA_HOME=$INSTALL_DIR" >> ~/.bashrc
+
+# Source the .bashrc file to apply changes to the current shell
+source ~/.bashrc
+
+# Verify Java installation
+echo "Java installation complete. Verifying..."
+java -version
+
+
+
+# Define the URL of the Ghidra release
+GHIDRA_VERSION="9.2.2_PUBLIC"
+GHIDRA_URL="https://github.com/NationalSecurityAgency/ghidra/releases/download/Ghidra_${GHIDRA_VERSION}/ghidra_${GHIDRA_VERSION}_PUBLIC.zip"
+
+# Define the directory to download Ghidra into
+DOWNLOAD_DIR="/tmp"
+
+# Define the directory to install Ghidra into
+INSTALL_DIR="/opt/ghidra"
+
+# Download Ghidra zip file
+echo "Downloading Ghidra..."
+wget -P $DOWNLOAD_DIR $GHIDRA_URL
+
+# Extract Ghidra zip file
+echo "Extracting Ghidra..."
+unzip -q "${DOWNLOAD_DIR}/ghidra_${GHIDRA_VERSION}_PUBLIC.zip" -d $INSTALL_DIR
+
+# Change directory to Ghidra installation directory
+cd $INSTALL_DIR
+
+# Run Ghidra
+echo "Running Ghidra..."
+./ghidraRun

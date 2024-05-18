@@ -25,7 +25,9 @@ Different data types and uses typically vary in sensitivity across the three. Fo
 Participating in this series will give you some skills to protect your data, and an idea of what a career in cyber can include.
 
 
-<img src="img/Security-meme-35.png" width="400" height="200">
+<img src='../img/Security-meme-35.png' width="400" height="200">
+
+![image](../img/Security-meme-35.png)
 
 
 # Ethical hacking

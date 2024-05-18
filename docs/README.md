@@ -1,5 +1,6 @@
-# scbc_pecan
-Training material for the Australian PECAN+ CTF competition. It contains a series of lessons based on lab work.
+# Welcome to SCBC PECAN
+
+Training material for the Australian PECAN+ CTF competition. It contains a series of lessons based on lab work in picoCTF.
 
 # Approach
 1. Lab based learning from week 1.

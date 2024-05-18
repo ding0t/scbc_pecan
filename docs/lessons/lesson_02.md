@@ -19,7 +19,9 @@ Work through the picoCTF general playlist to learn
 
 
 
-<img src="img/ascii_table.webp" width="600" height="800">
+<img src="../img/ascii_table.webp" width="600" height="800">
+
+![ascii](../img/ascii_table.webp)
 
 # Lab
 

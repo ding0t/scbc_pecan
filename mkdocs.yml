@@ -1,0 +1,49 @@
+site_name: SCBC Pecan
+site_url: ''
+
+nav:
+  - Home: README.md
+  - Tools: './learn/tools.md'
+  - Lessons: 
+    - 01 - welcome: './lessons/lesson_01.md'
+    - 02 - charachter encoding: './lessons/lesson_02.md'
+    - 03 - base64: './lessons/lesson_03.md'
+    - 04 - Python: './lessons/lesson_04.md'
+  - Labs:
+    - General (picoCTF):
+      - Skills 1: './labs/pico_playlist_general_1.md'
+      - Skills 2: './labs/pico_playlist_general_2.md'
+    - Python (picoCTF): './labs/pico_playlist_python.md'
+  - Walkthroughs:
+    - PECAN:
+      - love letter: './walkthroughs/pecan_crypto_love_letter.md'
+
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: blue
+  features:
+    - search.suggest
+    - search.highlight
+    - toc.follow
+    - navigation.tracking
+    - navigation.path
+    - navigation.sections
+    - navigation.expand
+
+plugins:
+  - tags
+  - search
+
+markdown_extensions:
+  - tables
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html

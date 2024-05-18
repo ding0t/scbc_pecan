@@ -1,5 +1,5 @@
 site_name: SCBC Pecan
-site_url: ''
+site_url: 'https://ding0t.github.io/scbc_pecan/'
 
 nav:
   - Home: README.md

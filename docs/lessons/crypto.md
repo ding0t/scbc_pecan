@@ -1,5 +1,9 @@
 # Contents
 
+1. Hashing
+1. Encryption
+1. Steganography
+
 # Intro
 
 # Encoding

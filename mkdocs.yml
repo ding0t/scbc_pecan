@@ -1,23 +1,28 @@
 site_name: SCBC Pecan
 site_url: 'https://ding0t.github.io/scbc_pecan/'
 
+# main navigation
 nav:
   - Home: README.md
-  - Tools: './learn/tools.md'
+  - Tools: 
+    - Tools list: './lessons/tools.md'
+    - Linux terminal: './lessons/linux_shell.md'
+    - Ghidra: './lessons/ghidra.md'
+    - Generative AI: './lessons/ai_coding.md'
   - Lessons: 
-    - 01 - welcome: './lessons/lesson_01.md'
-    - 02 - charachter encoding: './lessons/lesson_02.md'
-    - 03 - base64: './lessons/lesson_03.md'
+    - 01 - Welcome: './lessons/lesson_01.md'
+    - 02 - Charachter encoding: './lessons/lesson_02.md'
+    - 03 - Base64: './lessons/lesson_03.md'
     - 04 - Python: './lessons/lesson_04.md'
   - Labs:
     - General (picoCTF):
       - Skills 1: './labs/pico_playlist_general_1.md'
       - Skills 2: './labs/pico_playlist_general_2.md'
     - Python (picoCTF): './labs/pico_playlist_python.md'
-  - Walkthroughs:
-    - PECAN:
-      - love letter: './walkthroughs/pecan_crypto_love_letter.md'
+    - Crypto:
+      - Love letter (PECAN): './labs/pecan_crypto_love_letter.md'
 
+# material theme has good documentation and configuration
 theme:
   name: material
   palette:
@@ -38,12 +43,19 @@ plugins:
 
 markdown_extensions:
   - tables
+  # enable code highlighting
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
       pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
+  - admonition
+  - pymdownx.details
   - pymdownx.superfences
   - attr_list
   - md_in_html
+  # emojis - search here https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg

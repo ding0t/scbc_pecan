@@ -1,26 +1,26 @@
-# lesson 04
+# lesson 04 - Python
 
-# Objectives 
+## Objectives 
 
 1. Python fu ++
 1. Try out generative AI
 1. Continue building foundational skills
 1. Progress to Crackmes
 
-# Labs
+## Labs
 
 The labs are self paced - but you can ask for a run through!
 
 1. Finish off the general challenges in picoCTF
-    * [General 2-1 updated last two walthroughs](./labs/pico_playlist_general_2_1.md) - it was common to have issues with [python wrangling](https://play.picoctf.org/playlists/14?m=100)
-    * [General 2-3](./labs/pico_playlist_general_2_3.md)
-1. Get into some [crackmes](./labs/pico_general_crackme.md)
+    * [General 2-3](../labs/pico_playlist_general_2.md)
+    * it was common to have issues with [python wrangling](https://play.picoctf.org/playlists/14?m=100)
+    * remember to use [walkthroughs](../labs/pico_playlist_general_2.md#python-wrangling)
+1. Get into some [crackmes](../labs/pico_playlist_python.md)
 1. Try out the PECAN [Love letter](https://pecanplus.ecusdf.org/?page=challenges&challenge=loveletter)
 
----
----
+-----
 
-<img src="img/python-logo.png" width="400" height="100">
+![py-logo](../img/python-logo.png)
 
 
 ## What is Python
@@ -29,13 +29,13 @@ First appearing in 1991, it is now one of the most popular programming languages
 
 It is a high level language, with emphasis on code readability.
 
-## Critical skills for Python in CTF's
+### Critical skills for Python in CTF's
 
 1. Finding help
 1. Reading Python code
 1. Writing basic code
 
-## Reading Python
+### Reading Python
 
 If you download Python - have a look at it first. Its a good habit to do a basic traige - *"is this what I am expecting*" because plenty of malware gets distributed in dodgy code.
 
@@ -48,13 +48,13 @@ cat
 nano 
 ```
 
-## Writing Python
+### Writing Python
 
 As challenges progress you will need to start writing some Python to help. If you are familiar with Python, sue the tool you are familiar with
 
-In Kali we will have 
+In Kali we will have `LeafPad` gui editor - try it out too.
 
-## Help in the interpreter
+### Help in the interpreter
 
 We have built in help - ok but often nicer online.
 
@@ -65,15 +65,15 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>> help(chr)
 ```
 
-## Help online
+### Help online
 
 There are plenty of docs online
 
-## Help using AI
+### Help using AI
 
 This is going to be a great place to start learning.
 
-First a quick [intro to AI](./labs/_about_ai_coding.md)
+First a quick [intro to AI](./ai_coding.md)
 
 🐧 Now ask ChatGPT what the following code does?
 
@@ -92,8 +92,6 @@ def str_xor(secret, key):
 
 flag_enc = open('level1.flag.txt.enc', 'rb').read()
 
-
-
 def level_1_pw_check():
     user_pw = input("Please enter correct password for flag: ")
     if( user_pw == "8713"):
@@ -102,8 +100,6 @@ def level_1_pw_check():
         print(decryption)
         return
     print("That password is incorrect")
-
-
 
 level_1_pw_check()
 ```

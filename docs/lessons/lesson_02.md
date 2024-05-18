@@ -1,6 +1,6 @@
-# lesson 02
+# 02 Charachter encoding
 
-# Objectives
+## Objectives
 
 Work through the picoCTF general playlist to learn
 
@@ -17,23 +17,16 @@ Work through the picoCTF general playlist to learn
 1. numeric *representation* in differnt number bases (2,10,16) - they all represent the exact same underlying binary value in the computer but look different.
 1. *encoding* - a means of using binary to store text values. There are differnt encoding schemes, the most common in English is ASCII (7bit) now superseded by UTF-8 (8 bit)
 
-
-
-<img src="../img/ascii_table.webp" width="600" height="800">
-
 ![ascii](../img/ascii_table.webp)
 
-# Lab
+## Lab
 
 Open up [picoCTF and login](https://play.picoctf.org/)
 
 Work through the [general playlist](https://play.picoctf.org/playlists/14?m=89)
 
-Some help:
-* [general 1-1](/labs/pico_playlist_general_1_1.md)
-* [general 1-2](/labs/pico_playlist_general_1_2.md)
-* [general 2-1](/labs/pico_playlist_general_2_1.md)
+Use the [lab guides](../labs/pico_playlist_general_1.md)
 
-Extension
+## Extension
 
 Work through PECAN [loveletter](https://pecanplus.ecusdf.org/?page=challenges&challenge=loveletter)

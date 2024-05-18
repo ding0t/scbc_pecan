@@ -1,27 +1,33 @@
-title: 'Love Letter'
-link: [Love letter](https://pecanplus.ecusdf.org/?page=challenges&challenge=loveletter)
-type: cryptography
-difficulty: basic
-status: solved
-flag: 
+---
+tags:
+    - pecan
+    - crypto
+---
 
-# The challenge 
+# [Love letter](https://pecanplus.ecusdf.org/?page=challenges&challenge=loveletter)
 
 
-# Setup
-* ability to write and execute Python code
-* access the challenge and download a python script
+### Key skills
 
-# Solving
+1. Reading python
+1. Understanding ascii encoding
+1. Writing python 
+    1. Researching what you need
+    1. Debuggingpt
 
-##  Read the challenge instructions
+## Solving
+
+###  Read the challenge instructions
+
+!!! tip
+
     1. Difficulty - use this to frame complexity of the solution
     1. What to do - decrypt ciphertext back to plain text
     1. What You have
         1. ciphertext
         1. Python script
 
-## Lets look at the python script 
+### Lets look at the python script 
 
 After downloading the python script...
 
@@ -49,18 +55,17 @@ def encryptionFunction():
 
 cool it gives us the encyption algorithm
 
-## Key skills
 
-1. Reading python
-1. Understanding ascii encoding
-1. Writing python 
-    1. Researching what you need
-    1. Debugging
 
 ## Solve it!
+
+!!! tip "Hints"
+
+    1. Remember we can use chatGPT to ask what the script does
+    1. Try reversing what the script does
 
 
 # Resources
 
 * [representation vs encoding 1](https://dev.to/neumaneuma/decoding-the-confusing-world-of-encodings-part-1-3oke)
-* [Background reading 2](https://kunststube.net/encoding/)
+* [encoding](https://kunststube.net/encoding/)

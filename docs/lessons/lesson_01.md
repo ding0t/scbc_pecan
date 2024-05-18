@@ -7,10 +7,10 @@ Welcome to the first week of PECAN training. The aim of these training sessions 
 
 1. [Why learn cyber security](#about-cyber-security)
 1. [Ethical hacking](#ethical-hacking)
-1. [Understand CTF](labs/_about_ctf.md)
-1. [set up hacking station](labs/_about_hacking_station.md)
-1. [set up pico ctf account](labs/_about_picoctf.md)
-1. [pico playlist - general](labs/pico_playlist_general.md)
+1. [Understand CTF](./about_ctf.md)
+1. [set up hacking station](./about_hacking_station.md)
+1. [set up pico ctf account](./about_picoctf.md)
+1. [pico playlist - general](../labs/pico_playlist_general_1.md)
 
 # About cyber security
 Our objective with these modules is to learn more about cyber security and have fun doing it!
@@ -23,9 +23,6 @@ Cyber security typically involves the CIA of data:
 Different data types and uses typically vary in sensitivity across the three. For example, weather information may be available publically, but it causes major issues when it is unavailable. Whereas, the secret position of a Submarine could be missed for a bit, but undermines the safety of people if its confidentiality is broken.
 
 Participating in this series will give you some skills to protect your data, and an idea of what a career in cyber can include.
-
-
-<img src='../img/Security-meme-35.png' width="400" height="200">
 
 ![image](../img/Security-meme-35.png)
 
@@ -70,4 +67,4 @@ However, without understanding how the systems are broken into, or testing the c
 
 You will learn some techniques that can be used in the hacking of systems. This is a privilige not to be abused.
 
-![Aussie hackers](/img/aussie-hackers-arrested.png)
+![Aussie hackers](../img/aussie-hackers-arrested.png)

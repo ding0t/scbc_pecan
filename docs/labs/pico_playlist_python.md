@@ -1,14 +1,24 @@
-# Crackmes
+---
+tags:
+    - picoCTF
+    - python
+---
 
-An introduction to reverse engineering. Understanding:
+## Crackmes
+
+An introduction to using Python and reverse engineering. Understanding:
 
 * Python
 * how software works
 * its secrets/flaws
 
-Find these with this link [crackmes](https://play.picoctf.org/practice?page=1&search=crack)
+We will use the [Python playlist](https://play.picoctf.org/playlists/15?m=108)
 
-# PW Crack 1
+## Problem set 1
+
+## Problem set 2
+
+### PW Crack 1
 
 <details>
 <summary><b>Walkthrough</b></summary>
@@ -33,7 +43,7 @@ Find these with this link [crackmes](https://play.picoctf.org/practice?page=1&se
 </details>
 
 
-# PW Crack 2
+## PW Crack 2
 
 <details>
 <summary><b>Walkthrough</b></summary>
@@ -99,7 +109,7 @@ Find these with this link [crackmes](https://play.picoctf.org/practice?page=1&se
 
 </details>
 
-# PW Crack 3
+### PW Crack 3
 
 <details>
 <summary><b>Walkthrough</b></summary>
@@ -175,7 +185,9 @@ for p in pos_pw_list:
 
 </details>
 
-# Classic Crackme 0x100
+## Extension
+
+### Classic Crackme 0x100 - todo
 
 <details>
 <summary><b>Walkthrough</b></summary>

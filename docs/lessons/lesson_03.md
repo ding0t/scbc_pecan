@@ -1,16 +1,16 @@
-# lesson 03
+# lesson 03 - Base64
 
-# Labs
-
-1. Finish off general playlist  [Skills II problems 3 has nice walkthroughs!](/labs/pico_playlist_general_2_3.md)
-1. A simple base64 challenge [bases](https://play.picoctf.org/practice?originalEvent=1&page=1&search=bases)
-
-# Objectives 
+## Objectives 
 
 1. Understand base64
 1. Finish off the general challenges in picoCTF
 
-# Expected base knowledge
+## Labs
+
+1. Finish off general playlist  [Skills II problems 3 has nice walkthroughs!](../labs/pico_playlist_general_2.md)
+1. A simple base64 challenge [bases](https://play.picoctf.org/practice?originalEvent=1&page=1&search=bases)
+
+## Expected base knowledge
 
 We need to be getting a good at these foundational skills: 
 
@@ -28,7 +28,7 @@ For more information:
 
 ### Linux terminal skills
 
-<img src="img/slow_cat.jpg" width="500" height="300">
+![cat](../img/slow_cat.jpg)
 
 1. Navigating directories `ls, cd, mkdir, pwd`
 1. Finding help `man man` or try `<command> -h`
@@ -37,7 +37,7 @@ For more information:
 1. Changing permissions `chmod`
 1. Downloading a file `wget`
 1. Accessing another system `nc, ssh`
-1. Examion file type `file`
+1. Examine file type `file`
 1. Using tab to complete a line
 1. Using up arrow to load the last line(s) executed
 
@@ -52,9 +52,9 @@ For more information:
 1. Execute python
 1. Use the Python interactive shell
 
-# But I dont feel like a 1337 hax0r?
+## But I dont feel like a 1337 hax0r?
 
-<img src="img/1337b.png" width="500" height="300">
+![1337](../img/1337b.png)
 
 If you need to strengthen your foundations:
 
@@ -62,12 +62,12 @@ If you need to strengthen your foundations:
 1. Finish all the picoCTF general skills challenges
 1. Ask for help!!!
 
-# Base64
+## Base64
 
 A binary to text encoding. That means it can stuff any sequence of bits into a text representation of those bits.
 
 
-<img src="img/eml_base64.png" width="500" height="300">
+![base64](../img/eml_base64.png)
 
 For more on the topic see [this good write up](https://www.freecodecamp.org/news/what-is-base64-encoding/).
 
@@ -85,7 +85,7 @@ Base64 is exceptionally common in challenges.
 1. It is used allot in web data transfers
 1. Storing binary data inside a text based system (like a web cookie)
 
-## Some tests
+### Some tests
 
 Try decoding `WW91IGFyZSBhd2Vzb21lIOKcqAo=`
 

@@ -3,13 +3,14 @@
 
 
 # Define the URL of the Oracle JDK 11 tar.gz file
-JDK_URL="https://corretto.aws/downloads/latest/amazon-corretto-17-x64-linux-jdk.tar.gz"
+JDK_FILENAME="amazon-corretto-17-x64-linux-jdk.tar.gz"
+JDK_URL="https://corretto.aws/downloads/latest/${JDK_FILENAME}"
 
 # Define the directory to download JDK into
 DOWNLOAD_DIR="/tmp"
 
 # Define the directory to install JDK into
-INSTALL_DIR="/opt/java"
+JAVA_INSTALL_DIR="$HOME/jdk"
 
 # Download JDK tar.gz file
 echo "Downloading JDK..."
@@ -17,13 +18,13 @@ wget --no-check-certificate --no-cookies --header "Cookie: oraclelicense=accept-
 
 # Extract JDK tar.gz file
 echo "Extracting JDK..."
-mkdir -p $INSTALL_DIR
-tar -xf "${DOWNLOAD_DIR}/jdk-11.0.12_linux-x64_bin.tar.gz" -C $INSTALL_DIR --strip-components=1
+mkdir -p $JAVA_INSTALL_DIR
+tar -xf "${DOWNLOAD_DIR}/${JDK_FILENAME}" -C $JAVA_INSTALL_DIR --strip-components=1
 
 # Add JDK to PATH and set JAVA_HOME
 echo "Updating PATH and JAVA_HOME..."
-echo "export PATH=\$PATH:$INSTALL_DIR/bin" >> ~/.bashrc
-echo "export JAVA_HOME=$INSTALL_DIR" >> ~/.bashrc
+echo "export PATH=\$PATH:$JAVA_INSTALL_DIR/bin" >> $HOME/.bashrc
+echo "export JAVA_HOME=$JAVA_INSTALL_DIR" >> $HOME/.bashrc
 
 # Source the .bashrc file to apply changes to the current shell
 source ~/.bashrc
@@ -35,14 +36,16 @@ java -version
 
 
 # Define the URL of the Ghidra release
-GHIDRA_VERSION="9.2.2_PUBLIC"
-GHIDRA_URL="https://github.com/NationalSecurityAgency/ghidra/releases/download/Ghidra_${GHIDRA_VERSION}/ghidra_${GHIDRA_VERSION}_PUBLIC.zip"
+#GHIDRA_VERSION="11.0.3_PUBLIC"
+#GHIDRA_URL="https://github.com/NationalSecurityAgency/ghidra/releases/download/Ghidra_${GHIDRA_VERSION}/ghidra_${GHIDRA_VERSION}_PUBLIC.zip"
+GHIDRA_FILENAME="ghidra_11.0.3_PUBLIC_20240410.zip"
+GHIDRA_URL="https://github.com/NationalSecurityAgency/ghidra/releases/download/Ghidra_11.0.3_build/${GHIDRA_FILENAME}"
 
 # Define the directory to download Ghidra into
 DOWNLOAD_DIR="/tmp"
 
 # Define the directory to install Ghidra into
-INSTALL_DIR="/opt/ghidra"
+GHIDRA_INSTALL_DIR="$HOME/ghidra"
 
 # Download Ghidra zip file
 echo "Downloading Ghidra..."
@@ -50,10 +53,10 @@ wget -P $DOWNLOAD_DIR $GHIDRA_URL
 
 # Extract Ghidra zip file
 echo "Extracting Ghidra..."
-unzip -q "${DOWNLOAD_DIR}/ghidra_${GHIDRA_VERSION}_PUBLIC.zip" -d $INSTALL_DIR
+unzip -q "${DOWNLOAD_DIR}/${GHIDRA_FILENAME}" -d $GHIDRA_INSTALL_DIR
 
 # Change directory to Ghidra installation directory
-cd $INSTALL_DIR
+cd $GHIDRA_INSTALL_DIR
 
 # Run Ghidra
 echo "Running Ghidra..."

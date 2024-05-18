@@ -1,3 +1,9 @@
+---
+tags:
+    - picoCTF
+    - general
+---
+
 # General skills in CTF II 
 
 ## Problem set 1
@@ -88,7 +94,7 @@ hint: this mainly tests your ability to execute a python file
 
 </details>
 
-## [Magikarp Ground Mission](https://play.picoctf.org/playlists/14?m=101)
+### [Magikarp Ground Mission](https://play.picoctf.org/playlists/14?m=101)
 
 
 

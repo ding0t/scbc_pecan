@@ -1,6 +1,7 @@
 ---
 tags:
     - pecan
+    - crypto
 ---
 
 # ["Rock 'N' Roll"](https://pecanplus.ecusdf.org/?page=challenges&challenge=rocknroll)
@@ -9,25 +10,33 @@ type: cryptography
 difficulty: advanced
 
 
-# Challenge 
+## Challenge 
+
 "Jerry was a racecar driver, Knock Jerry down, Build Jerry up. Captain Pierce was a strong man, Put Jerry with Captain Pierce into The Racecar."
 
-# Facts
+## Facts
 
 1. This is a crypto challenge
 1. racecar is a pallindrome
 1. there is unnecesary capitilasation
 
 
-# Similar challenges
+<details>
+<summary><b>Hint</b></summary>
 
-[this](https://dmfrsecurity.com/2021/04/19/picoctf-2019-mus1c-writeup/)
+look for picoCTF challenge `1_wanna_b3_a_r0ck5tar` or `mus1c`
 
-# Approach
-Use the Rockstart interpreter [here](https://codewithrockstar.com/online)
+</details>
+
+<details>
+<summary><b>Walkthrough</b></summary>
+
+Use the Rockstar interpreter [here](https://codewithrockstar.com/online)
+
 Read the [docs](https://codewithrockstar.com/docs)
 
 ## Rockstar interpritation
+
 1. Jerry was a racecar driver,
     * A poetic number literal
     * initialise varialbe Jerry with number 1 7 6
@@ -41,9 +50,8 @@ Read the [docs](https://codewithrockstar.com/docs)
 1. Put Jerry with Captain Pierce into The Racecar
     * add Jerry to Captain Pierce and assign result to The Racecar
 
-This successfully executes but does not print
+This successfully executes but does not print, so we need to get it to print to STDOUT.
 
-add a write to STDOUT
-`Say The Racecar`
+Add a write to STDOUT `Say The Racecar`
 
-
+</details>

@@ -1,3 +1,9 @@
+---
+tags:
+    - lesson
+    - web exploitation
+---
+
 # Lesson 05 - Web hacking introduction
 
 

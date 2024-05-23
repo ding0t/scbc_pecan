@@ -1,4 +1,10 @@
-# 02 Charachter encoding
+---
+tags:
+    - lesson
+    - encoding
+    - general
+---
+# 02 Character encoding
 
 ## Objectives
 

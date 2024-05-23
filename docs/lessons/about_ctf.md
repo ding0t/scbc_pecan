@@ -2,7 +2,7 @@ _Lab01 - about ctf_
 
 # Objectives
 1. [About CTF](#about-ctf)
-1. [Resources](#resources)
+
 
 
 # About CTF

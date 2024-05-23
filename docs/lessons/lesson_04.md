@@ -1,3 +1,9 @@
+---
+tags:
+    - lesson
+    - Python
+    - general
+---
 # 🐍 lesson 04 - Python
 
 ## Objectives 

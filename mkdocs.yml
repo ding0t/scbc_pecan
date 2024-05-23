@@ -13,7 +13,7 @@ nav:
     - Generative AI: './lessons/ai_coding.md'
   - Lessons: 
     - 01 - Welcome: './lessons/lesson_01.md'
-    - 02 - Charachter encoding: './lessons/lesson_02.md'
+    - 02 - Character encoding: './lessons/lesson_02.md'
     - 03 - Base64: './lessons/lesson_03.md'
     - 04 - Python: './lessons/lesson_04.md'
     - 05 - Web Exploitation: './lessons/lesson_05.md'
@@ -21,7 +21,8 @@ nav:
     - General (picoCTF):
       - Skills 1: './labs/pico_playlist_general_1.md'
       - Skills 2: './labs/pico_playlist_general_2.md'
-    - Python (picoCTF): './labs/pico_playlist_python.md'
+    - Python : 
+      - playlist (picoCTF): './labs/pico_playlist_python.md'
     - Crypto:
       - Love letter (PECAN): './labs/pecan_crypto_love_letter.md'
     - Web Exploitation:

@@ -1,3 +1,9 @@
+---
+tags:
+    - lesson
+    - base64
+    - general
+---
 # lesson 03 - Base64
 
 ## Objectives 

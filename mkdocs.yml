@@ -1,6 +1,8 @@
 site_name: SCBC Pecan
 site_url: 'https://ding0t.github.io/scbc_pecan/'
 
+repo_url: 'https://github.com/ding0t/scbc_pecan'
+
 # main navigation
 nav:
   - Home: README.md
@@ -14,6 +16,7 @@ nav:
     - 02 - Charachter encoding: './lessons/lesson_02.md'
     - 03 - Base64: './lessons/lesson_03.md'
     - 04 - Python: './lessons/lesson_04.md'
+    - 05 - Web Exploitation: './lessons/lesson_05.md'
   - Labs:
     - General (picoCTF):
       - Skills 1: './labs/pico_playlist_general_1.md'
@@ -21,6 +24,8 @@ nav:
     - Python (picoCTF): './labs/pico_playlist_python.md'
     - Crypto:
       - Love letter (PECAN): './labs/pecan_crypto_love_letter.md'
+    - Web Exploitation:
+      - picoCTF web lab: './labs/pico_web_exploitation.md'
 
 # material theme has good documentation and configuration
 theme:

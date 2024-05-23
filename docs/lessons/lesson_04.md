@@ -1,4 +1,4 @@
-# lesson 04 - Python
+# 🐍 lesson 04 - Python
 
 ## Objectives 
 

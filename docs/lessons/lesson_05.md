@@ -91,7 +91,12 @@ Tracking
 First party - created by the website itself
 Third party - from a domain other than in the broser - great example is Facebook
 
+## Tools
 
+Today - we will use the develoepr tools - they come with documetnation:
+
+* [Firefox](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Tools_and_setup/What_are_browser_developer_tools)
+* [Edge](https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/overview)
 
 ## Resources
 

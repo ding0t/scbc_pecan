@@ -10,5 +10,4 @@ for i in range(29):
     response = requests.get(url, cookies=cookies)
     html = response.text
     parsed_html = BeautifulSoup(html)
-    print(cookies)
-    print(parsed_html.body.find('div', attrs={'class':'jumbotron'}).text)
+    print("Cookie['name']: " , i, '"', parsed_html.body.find('div', attrs={'class':'jumbotron'}).text.strip(),'"')

@@ -52,7 +52,6 @@ theme:
 plugins:
   - tags
   - search
-  - mkdocstrings
 
 markdown_extensions:
   - tables

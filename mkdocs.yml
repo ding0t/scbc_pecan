@@ -25,7 +25,7 @@ nav:
       - playlist (picoCTF): './labs/pico_playlist_python.md'
     - Web:
       - picoCTF web - client side: './labs/pico_web_client.md'
-      - picoCTF web - client side: './labs/pico_web_server.md'
+      - picoCTF web - server side: './labs/pico_web_server.md'
       - pecan web: './labs/pecan_web.md'
     - Crypto:
       - Love letter (PECAN): './labs/pecan_crypto_love_letter.md'

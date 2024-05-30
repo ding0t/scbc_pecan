@@ -9,7 +9,6 @@ nav:
   - Tool cheatsheets: 
     - Tools list: './lessons/tools.md'
     - Linux terminal: './lessons/linux_shell.md'
-    - Ghidra: './lessons/ghidra.md'
     - Generative AI: './lessons/ai_coding.md'
   - General: 
     - Welcome: './lessons/01_intro.md'

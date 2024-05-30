@@ -1,5 +1,9 @@
+---
+tags:
+    - tools
+---
 
-
+## General
 
 ### Linux terminal skills
 
@@ -18,3 +22,23 @@ Go to the [linux terminal page](./linux_shell.md)
 
 1. Execute python
 1. Use the Python interactive shell
+
+## Web
+
+### Gobuster
+
+A tool to enumerate web sites
+
+[Handy guide](https://sohvaxus.github.io/content/gobuster.html)
+
+### Burpsuite
+
+This tool is for web testing. A [startup guide](https://portswigger.net/burp/documentation/desktop/getting-started)
+
+## Reversing
+
+### Ghidra
+
+Is an open source software reverse engineering suite of tools.
+
+Find the tool site [here](https://ghidra-sre.org/)

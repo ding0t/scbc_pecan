@@ -33,6 +33,3 @@ Work through the [general playlist](https://play.picoctf.org/playlists/14?m=89)
 
 Use the [lab guides](../labs/pico_playlist_general_1.md)
 
-## Extension
-
-Work through PECAN [loveletter](https://pecanplus.ecusdf.org/?page=challenges&challenge=loveletter)

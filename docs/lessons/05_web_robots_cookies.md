@@ -4,7 +4,7 @@ tags:
     - web exploitation
 ---
 
-# Lesson 05 - Web hacking introduction
+# 05 - Web hacking - client side- robots and cookies
 
 
 ## News

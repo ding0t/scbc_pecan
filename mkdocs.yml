@@ -6,33 +6,37 @@ repo_url: 'https://github.com/ding0t/scbc_pecan'
 # main navigation
 nav:
   - Home: README.md
-  - Tools: 
+  - Tool cheatsheets: 
     - Tools list: './lessons/tools.md'
     - Linux terminal: './lessons/linux_shell.md'
     - Ghidra: './lessons/ghidra.md'
     - Generative AI: './lessons/ai_coding.md'
-  - Lessons: 
-    - 01 - Welcome: './lessons/lesson_01.md'
-    - 02 - Character encoding: './lessons/lesson_02.md'
-    - 03 - Base64: './lessons/lesson_03.md'
-    - 04 - Python: './lessons/lesson_04.md'
-    - 05 - Web Exploitation: './lessons/lesson_05.md'
+  - General: 
+    - Welcome: './lessons/01_intro.md'
+    - Character encoding: './lessons/02_encoding.md'
+    - Base64: './lessons/03_base64.md'
+    - Python: './lessons/04_python.md'
+  - Web:
+    - Web client side: './lessons/05_web_robots_cookies.md'
+    - Web server side : './lessons/06_web_server.md'
   - Labs:
     - General (picoCTF):
       - Skills 1: './labs/pico_playlist_general_1.md'
       - Skills 2: './labs/pico_playlist_general_2.md'
-    - Python : 
       - playlist (picoCTF): './labs/pico_playlist_python.md'
+    - Web:
+      - picoCTF web - client side: './labs/pico_web_client.md'
+      - picoCTF web - client side: './labs/pico_web_server.md'
+      - pecan web: './labs/pecan_web.md'
     - Crypto:
       - Love letter (PECAN): './labs/pecan_crypto_love_letter.md'
-    - Web Exploitation:
-      - picoCTF web lab: './labs/pico_web_exploitation.md'
+
 
 # material theme has good documentation and configuration
 theme:
   name: material
   palette:
-    scheme: slate
+    scheme: default
     primary: blue
   features:
     - search.suggest
@@ -43,9 +47,12 @@ theme:
     - navigation.sections
     - navigation.expand
 
+# pip install mkdocstrings[python]
+# https://realpython.com/python-project-documentation-with-mkdocs/
 plugins:
   - tags
   - search
+  - mkdocstrings
 
 markdown_extensions:
   - tables

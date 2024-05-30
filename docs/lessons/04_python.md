@@ -4,7 +4,7 @@ tags:
     - Python
     - general
 ---
-# 🐍 lesson 04 - Python
+# 🐍 04 - Python
 
 ## Objectives 
 

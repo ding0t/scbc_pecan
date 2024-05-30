@@ -1,8 +1,21 @@
 ## Essential skills
 
-Allot of the picoCTF challnges require skills in the Linux command line tools. Embrace it, and practice.
+Allot of the picoCTF challenges require skills in the Linux command line tools. Embrace it, and practice.
 
-During competition you will have access to a kali workstation. This 
+During competition you will have access to a kali workstation. This is a Linux system that you will need to be familiar with.
+
+### Gotchas
+
+In the terminal keep in mind:
+
+1. Your current working directory - where are you and your scripts
+1. Your PATH - a script not in PATH will not be found - so run it explicitly
+1. Executable - if you think you can run something but get a fail - check it is executable
+1. Scripts - if not made executable can be called by the interpreter directly e.g `python3 ./my_script.py`
+1. Permissions - do you need to use sudo
+1. Output - know where your output will go
+
+## Common commands
 
 1. Shortcuts to launch a terminal
     ```sh
@@ -40,6 +53,10 @@ During competition you will have access to a kali workstation. This
     wget
     ```
 1. Finding files
+    ```sh
+    # look for files that have a txt extension, from the current working directory.
+    find . -type f -iname "*.txt"
+    ```
 1. Grep
     ```sh
     grep
@@ -64,7 +81,7 @@ During competition you will have access to a kali workstation. This
     1. Using tab to complete a line
     1. Using up arrow to load the last line(s) executed
 
-## Some handy guides
+## Handy guides
 
 Do have a look at these if you are struggiling
 

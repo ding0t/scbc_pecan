@@ -11,7 +11,7 @@ tags:
 
 This one is a straight forward demonstration of a directory traversal vulnerability.
 
-<details>
+<details markdown>
 <summary><b>Walkthrough</b></summary>
 
 1. Read the challenge well. It tells you

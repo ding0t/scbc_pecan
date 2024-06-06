@@ -20,7 +20,7 @@ We will use the [Python playlist](https://play.picoctf.org/playlists/15?m=108)
 
 ### PW Crack 1
 
-<details>
+<details markdown>
 <summary><b>Walkthrough</b></summary>
 
 1. First lets make a clean directory to work in, but lets try out a little shell script to copy paste this in and run
@@ -45,7 +45,7 @@ We will use the [Python playlist](https://play.picoctf.org/playlists/15?m=108)
 
 ## PW Crack 2
 
-<details>
+<details markdown>
 <summary><b>Walkthrough</b></summary>
 
 
@@ -111,7 +111,7 @@ We will use the [Python playlist](https://play.picoctf.org/playlists/15?m=108)
 
 ### PW Crack 3
 
-<details>
+<details markdown>
 <summary><b>Walkthrough</b></summary>
 
 
@@ -189,7 +189,7 @@ for p in pos_pw_list:
 
 ### Classic Crackme 0x100 - todo
 
-<details>
+<details markdown>
 <summary><b>Walkthrough</b></summary>
 
 1. Lets start scripting the setup...

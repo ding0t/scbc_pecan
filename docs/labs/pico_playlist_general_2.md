@@ -10,7 +10,7 @@ tags:
 
 ###  [Nice netcat](https://play.picoctf.org/playlists/14?m=98)
 
-<details>
+<details markdown>
 <summary><b>Walkthrough</b></summary>
 
 1. Open up a terminal, you can use the picoctf webshell, and copy the output
@@ -32,10 +32,10 @@ From_Decimal('Space',true)
 hint: in title - use tab complete
 
 
-<details>
+<details markdown>
 <summary><b>Walkthrough</b></summary>
 
-Intended solution is to  `cd A<tab>`
+Intended solution is to  `cd A<tab>` and keep tabbing
 
 We can also just do a ls -R
 
@@ -54,7 +54,7 @@ cat or execute the file
 
 hint: this mainly tests your ability to execute a python file
 
-<details>
+<details markdown>
 <summary><b>Walkthrough</b></summary>
 
 1. First lets make a clean directory to work in, but lets try out a little shell script to copy paste this in and run
@@ -76,7 +76,7 @@ hint: this mainly tests your ability to execute a python file
     ```
     * Looking over the source we get a good idea what it does. And looking at the `print()` syntax, it is python3
     * To exit nano use `CTRL + 'x'`
-1. Now we know th efile looks safe, Lets run the python
+1. Now we know the file looks safe, Lets run the python
     ```sh
     python3 ./ende.py
     ```
@@ -96,9 +96,9 @@ hint: this mainly tests your ability to execute a python file
 
 ### [Magikarp Ground Mission](https://play.picoctf.org/playlists/14?m=101)
 
+An exercise in finding your way around the lInux file system.
 
-
-<details>
+<details markdown>
 <summary><b>Walkthrough</b></summary>
 
 1. Run the container
@@ -151,7 +151,7 @@ man find
 /iname
 ```
 
-<details>
+<details markdown>
 <summary><b>Walkthrough</b></summary>
 
 1. Open up a terminal, you can use the picoctf webshell, and copy the output
@@ -163,7 +163,7 @@ nc mercury.picoctf.net 22902
 2. We need to decode the output, try this recipie
 
 ```sh
-wget 
+wget <>
 find -iname ''
 ```
 
@@ -186,7 +186,7 @@ Make sure you are working in a Linux terminal.
 
 This challenge relies on terminal skills allot. 
 
-<details>
+<details markdown>
 <summary><b>Walkthrough</b></summary>
 
 * First lets make a clean directory to work in
@@ -252,7 +252,7 @@ Why not just run the executable?
 * Download the file
 * Look at the challenge namesake
 
-<details>
+<details markdown>
 <summary><b>Walkthrough</b></summary>
 
 * First lets make a clean directory to work in
@@ -289,7 +289,7 @@ cd ~
 
 ### [plumbing](https://play.picoctf.org/playlists/14?m=107)
 
-<details>
+<details markdown>
 <summary><b>Walkthrough</b></summary>
 
 * First lets make a clean directory to work in, but lets try out a little shell script to copy paste this in and run

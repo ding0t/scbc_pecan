@@ -36,7 +36,7 @@ _remember to submit flags in the format `picoCTF{flag}`_
     This is a lesson in [charachter encoding](https://play.picoctf.org/playlists/14?m=90) we can solve it using 
     the following walkthrough. Click on *walkthrough* to expand it.
 
-<details>
+<details markdown>
 <summary><b>Walkthrough</b></summary>
 
 1. open up the pico `>_Webshell`
@@ -73,7 +73,7 @@ _remember to submit flags in the format `picoCTF{flag}`_
 
 _try using an interactive Python shell to solve this_
 
-<details>
+<details markdown>
 <summary><b>Walkthrough</b></summary>
 
 </details>
@@ -82,7 +82,7 @@ _try using an interactive Python shell to solve this_
 
 _try using [cyberchef](https://gchq.github.io/CyberChef) to solve this_
 
-<details>
+<details markdown>
 <summary><b>Walkthrough</b></summary>
 
 </details>
@@ -94,7 +94,7 @@ _try using [cyberchef](https://gchq.github.io/CyberChef) to solve this_
 Learn how to use the cat command.
 
 
-<details>
+<details markdown>
 <summary><b>Walkthrough</b></summary>
 
 Using a Linux shell
@@ -116,7 +116,7 @@ skill: working with executable files in linux shell
     1. how do you make a file executable in linux?
     1. -h is usually a good way to try asking for help
 
-<details>
+<details markdown>
 <summary><b>Walkthrough</b></summary>
 
 ```sh
@@ -132,7 +132,7 @@ chmod +x warm
 
 ### convertme.py
 
-<details>
+<details markdown>
 <summary><b>Walkthrough</b></summary>
 
 ```chef
@@ -145,7 +145,7 @@ To_Binary('Space',8)
 ### [what's a net cat?](https://play.picoctf.org/playlists/14?m=97)
 
 
-<details>
+<details markdown>
 <summary><b>Walkthrough</b></summary>
 
 ```sh

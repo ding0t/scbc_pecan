@@ -2,6 +2,7 @@
 tags:
     - pecan
     - crypto
+    - programming
 ---
 
 # ["Rock 'N' Roll"](https://pecanplus.ecusdf.org/?page=challenges&challenge=rocknroll)
@@ -18,17 +19,19 @@ difficulty: advanced
 
 1. This is a crypto challenge
 1. racecar is a pallindrome
-1. there is unnecesary capitilasation
+1. there is unnecesary capitalisation
+1. The title is a hint
 
 
-<details>
+<details markdown>
 <summary><b>Hint</b></summary>
 
 look for picoCTF challenge `1_wanna_b3_a_r0ck5tar` or `mus1c`
 
 </details>
 
-<details>
+
+<details markdown>
 <summary><b>Walkthrough</b></summary>
 
 Use the Rockstar interpreter [here](https://codewithrockstar.com/online)

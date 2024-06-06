@@ -4,7 +4,7 @@
 
 Finding files we can read but are not directly linked...
 
-<details>
+<details markdown>
 <summary><b>Walkthrough</b></summary>
 
 1. Inspect the page 
@@ -33,7 +33,7 @@ gobuster dir -u https://pecanplus.ecusdf.org/challenges/bite_my_shiny_metal -w /
 
 An exercise in reading page source... sauce hehe
 
-<details>
+<details markdown>
 <summary><b>Walkthrough</b></summary>
 
 1. Load the challenge page
@@ -46,7 +46,7 @@ An exercise in reading page source... sauce hehe
 
 Find a file...
 
-<details>
+<details markdown>
 <summary><b>Walkthrough</b></summary>
 
 1. Load source and notice working directory is `challenges/mr_robot/`

@@ -18,7 +18,7 @@ tags:
 
 An introduction to robots instructions.
 
-<details>
+<details markdown>
 <summary><b>Walkthrough</b></summary>
 
 1. Load the [site](https://jupiter.challenges.picoctf.org/problem/36474/)
@@ -44,7 +44,7 @@ It must start with a / character and if it refers to a directory, it must end wi
 
 This one is a good introduction to cookies
 
-<details>
+<details markdown>
 <summary><b>Walkthrough</b></summary>
 
 1. Start the instance, and opena browser to the link given
@@ -67,7 +67,7 @@ CTRL+SHIFT+i
 
 You are now in a position to solve this 
 
-<details>
+<details markdown>
 <summary><b>Walkthrough</b></summary>
 
 1. Start the instance, and opena browser to the link given
@@ -83,7 +83,7 @@ CTRL+SHIFT+i
 
 A bit of a step up, but helps understand cookies and their role.
 
-<details>
+<details markdown>
 <summary><b>Walkthrough</b></summary>
 
 1. First we need to load the [site](http://mercury.picoctf.net:27177/)
@@ -105,7 +105,7 @@ CTRL+SHIFT+i
 
 </details>
 
-<details>
+<details markdown>
 <summary><b>Lazy? Walkthrough Extension</b></summary>
 
 ```txt

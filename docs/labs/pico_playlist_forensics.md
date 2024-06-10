@@ -119,7 +119,7 @@ strings garden.jpg
 
 ## [Enhance](https://play.picoctf.org/playlists/16?m=117)
 
-
+A look into SVG format, and some scripting to help wrangle the flag out of the text.
 
 <details markdown>
 <summary><b> Walkthrough</b></summary>
@@ -127,11 +127,56 @@ strings garden.jpg
 1. Make a new directory to work in  and cd into it
 ```sh
 cd ~
-dir='garden'
+dir='enhance'
 mkdir $dir && cd $dir 
 ```
 1. Grab the file - your url may be different
 ```sh
-wget
+wget https://artifacts.picoctf.net/c/102/drawing.flag.svg
+```
+1. Do a `strings` on the file
+1. Notice that it is XML - no binary data
+1. The `id` field looks useful - lets grab them all and concatenate them
+```txt
+```
+1. A script would be quicker than extracting by hand. We can ask chat gpt something like:
+```txt
+write python3 to extract the text of the id elements from an svg file named 'drawing.flag.svg' and concatenate them to print with no spaces
+```
+1. After fixing some generative AI bugs , we can get some Python like
+```py
+import xml.etree.ElementTree as ET
+
+def extract_tspan_from_id(svg_file):
+    tree = ET.parse(svg_file)
+    root = tree.getroot()
+    id_text=[]
+
+    for elem in root.iter():
+        if ('id' in elem.attrib) and (elem.text):
+            id_text.append(elem.text)
+
+    return id_text
+
+# Replace 'drawing.flag.svg' with the path to your SVG file
+svg_file = 'drawing.flag.svg'
+flag = extract_tspan_from_id(svg_file)
+
+print(''.join(flag).replace(' ',''))
+
+```
+
+1. You can copy nad paste this into a python file like:
+
+```sh
+nano solve.py
+# Then CTRL+v
+# Then CTRL+s
+# Then CTRL+x
+
+# Run it using:
+python3 ./solve.py
+```
+
 
 </details>

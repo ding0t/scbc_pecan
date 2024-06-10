@@ -7,6 +7,10 @@ tags:
 
 ## []()
 
+
+<details markdown>
+<summary><b> Walkthrough</b></summary>
+
 1. Make a new directory to work in  and cd into it
 ```sh
 cd ~
@@ -18,14 +22,11 @@ mkdir $dir && cd $dir
 wget
 ```
 
-<details markdown>
-<summary><b> Walkthrough</b></summary>
-
-
-
 </details>
 
-## [Information](https://play.picoctf.org/playlists/16?m=115)
+## Forensics I
+
+### [Information](https://play.picoctf.org/playlists/16?m=115)
 
 A good image forensics exercise.
 
@@ -87,7 +88,7 @@ Megapixels                      : 4.1
 
 </details>
 
-## [Glory of the Garden](https://play.picoctf.org/playlists/16?m=116)
+### [Glory of the Garden](https://play.picoctf.org/playlists/16?m=116)
 
 
 
@@ -117,7 +118,7 @@ strings garden.jpg
 
 </details>
 
-## [Enhance](https://play.picoctf.org/playlists/16?m=117)
+### [Enhance](https://play.picoctf.org/playlists/16?m=117)
 
 A look into SVG format, and some scripting to help wrangle the flag out of the text.
 
@@ -177,6 +178,4 @@ nano solve.py
 # Run it using:
 python3 ./solve.py
 ```
-
-
 </details>

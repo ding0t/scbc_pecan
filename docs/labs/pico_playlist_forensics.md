@@ -7,7 +7,16 @@ tags:
 
 ## []()
 
-
+1. Make a new directory to work in  and cd into it
+```sh
+cd ~
+dir='garden'
+mkdir $dir && cd $dir 
+```
+1. Grab the file - your url may be different
+```sh
+wget
+```
 
 <details markdown>
 <summary><b> Walkthrough</b></summary>
@@ -25,6 +34,7 @@ A good image forensics exercise.
 
 1. Make a new directory to work in  and cd into it
 ```sh
+cd ~
 dir='information'
 mkdir $dir && cd $dir 
 ```
@@ -74,5 +84,54 @@ Megapixels                      : 4.1
     - it is not words you would expect of a licence
     - it contains base64 alphanumeric chars
 1. Try and unbase64 it...
+
+</details>
+
+## [Glory of the Garden](https://play.picoctf.org/playlists/16?m=116)
+
+
+
+<details markdown>
+<summary><b> Walkthrough</b></summary>
+
+1. Make a new directory to work in  and cd into it
+```sh
+cd ~
+dir='garden'
+mkdir $dir && cd $dir 
+```
+1. Grab the file - your url may be different
+```sh
+wget https://jupiter.challenges.picoctf.org/static/43c4743b3946f427e883f6b286f47467/garden.jpg
+```
+1. Lets look at the EXIF
+```sh
+exiftool garden.jpg
+```
+1. Nothing obvious here
+1. Lets run a quick strings over the file - remember that looks through the binary data for any bytes that represent charachters.
+```sh
+strings garden.jpg
+```
+1. Flag?
+
+</details>
+
+## [Enhance](https://play.picoctf.org/playlists/16?m=117)
+
+
+
+<details markdown>
+<summary><b> Walkthrough</b></summary>
+
+1. Make a new directory to work in  and cd into it
+```sh
+cd ~
+dir='garden'
+mkdir $dir && cd $dir 
+```
+1. Grab the file - your url may be different
+```sh
+wget
 
 </details>

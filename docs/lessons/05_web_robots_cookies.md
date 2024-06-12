@@ -18,7 +18,7 @@ tags:
 
 ## Labs
 
-1. Today focus on [web hacking](../labs/pico_web_exploitation.md)
+1. Today focus on [web hacking](../labs/pico_web_client.md)
 
 Foundation hacker skills...
 
@@ -70,7 +70,7 @@ For example [Googlebot](https://developers.google.com/search/docs/crawling-index
 
 If you have information that you do not want appearing in global search engines - these can be excluded using the standard `robots.txt` file.
 
-Let look at this more in a [lab](../labs/pico_web_exploitation.md#where-are-the-robots)
+Let look at this more in a [lab](../labs/pico_web_client.md#where-are-the-robots)
 
 
 #### 🍪 Cookies

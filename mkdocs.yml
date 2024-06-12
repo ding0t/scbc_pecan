@@ -19,7 +19,9 @@ nav:
     - Web client side: './lessons/05_web_robots_cookies.md'
     - Web server side : './lessons/06_web_server.md'
   - Cryptography:
-    - Introduction to crypto: './lessons/07_cryptography_intro.md'
+    - Intro to crypto: './lessons/07_crypto_intro.md'
+  - Forensics:
+    - Intro forensics: './lessons/08_forensics_intro.md'
   - Labs:
     - General (picoCTF):
       - Skills 1: './labs/pico_playlist_general_1.md'
@@ -33,6 +35,8 @@ nav:
       - intro (picoCTF): './labs/pico_crypto.md'
       - Love letter (PECAN+): './labs/pecan_crypto_love_letter.md'
       - Rock 'n' Roll (PECAN+): './labs/pecan_crypto_rock-n-roll.md'
+    - Forensics:
+      - forensics playlist (picoCTF): './labs/pico_playlist_forensics.md'
 
 # material theme has good documentation and configuration
 theme:
@@ -66,7 +70,11 @@ markdown_extensions:
   - pymdownx.snippets
   - admonition
   - pymdownx.details
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - attr_list
   # needed to display MD properly in the walthroughs
   - md_in_html

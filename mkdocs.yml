@@ -22,6 +22,8 @@ nav:
     - Intro to crypto: './lessons/07_crypto_intro.md'
   - Forensics:
     - Intro forensics: './lessons/08_forensics_intro.md'
+  - Steganography:
+    - Intro to Stego: './lessons/09_steganography.md'
   - Labs:
     - General (picoCTF):
       - Skills 1: './labs/pico_playlist_general_1.md'
@@ -37,6 +39,8 @@ nav:
       - Rock 'n' Roll (PECAN+): './labs/pecan_crypto_rock-n-roll.md'
     - Forensics:
       - forensics playlist (picoCTF): './labs/pico_playlist_forensics.md'
+    - Steganogrphy:
+      - pecan_stego: './labs/pecan_stego.md'
 
 # material theme has good documentation and configuration
 theme:

@@ -4,12 +4,12 @@ tags:
     - forensics
 ---
 
+1. Load in wireshark
+1. Start near the bottom of the pcap
 
-Start near the bottom
 
+1. Telnet a plain text protocol
 
-Telnet a plain text protocol
+1. seqence 394 has the flag
 
-seqence 394 has the flag
-
-tcp.port == 23 and tcp.len > 0
+1. filter `tcp.port == 23 and tcp.len > 0`

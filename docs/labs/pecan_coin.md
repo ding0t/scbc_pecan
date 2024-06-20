@@ -25,8 +25,9 @@ Where is the toucan md5 and xor may help
 1. where is toucan 
     - [toucan](https://github.com/penguingovernor/toucan)
     - gaurenteed not secure
+    - look at the algorithm on github
 1. md5
-    - 32 hexadecimal characters equal 16 bytes
+    - 32 hexadecimal characters equal 16 bytes IV
     - key or IV?
     ```sh
     echo 'WH3R3ISTH3T0UC4NMD5ANDXORMAYHELP' | md5sum     

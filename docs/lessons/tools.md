@@ -37,8 +37,19 @@ This tool is for web testing. A [startup guide](https://portswigger.net/burp/doc
 
 ## Reversing
 
+### Objdump
+
 ### Ghidra
 
 Is an open source software reverse engineering suite of tools.
 
 Find the tool site [here](https://ghidra-sre.org/)
+
+```sh
+sudo apt install -y openjdk-17-jdk
+wget https://github.com/NationalSecurityAgency/ghidra/releases/download/Ghidra_11.1.1_build/ghidra_11.1.1_PUBLIC_20240614.zip
+unzip ghidra_11.1.1_PUBLIC_20240614.zip 
+# lets run ghidra
+./ghidra_11.1.1_PUBLIC_20240614/ghidraRun
+```
+

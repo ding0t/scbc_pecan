@@ -6,25 +6,26 @@ repo_url: 'https://github.com/ding0t/scbc_pecan'
 # main navigation
 nav:
   - Home: README.md
+
   - Tool cheatsheets: 
     - Tools list: './lessons/tools.md'
     - Linux terminal: './lessons/linux_shell.md'
     - Generative AI: './lessons/ai_coding.md'
-  - General: 
+
+  - Skills: 
     - Welcome: './lessons/01_intro.md'
     - Character encoding: './lessons/02_encoding.md'
     - Base64: './lessons/03_base64.md'
     - Python: './lessons/04_python.md'
-  - Web:
     - Web client side: './lessons/05_web_robots_cookies.md'
     - Web server side : './lessons/06_web_server.md'
-  - Cryptography:
-    - Intro to crypto: './lessons/07_crypto_intro.md'
-  - Forensics:
-    - Intro forensics: './lessons/08_forensics_intro.md'
-  - Steganography:
-    - Intro to Stego: './lessons/09_steganography.md'
+    - Cryptography: './lessons/07_crypto_intro.m'
+    - Forensics: './lessons/08_forensics_intro.md'
+    - Steganography: './lessons/09_steganography.md'
+    - Reverese Engineering: './lessons/10_re.md'
+
   - Labs:
+    - Revision: './labs/revision.md'
     - General (picoCTF):
       - Skills 1: './labs/pico_playlist_general_1.md'
       - Skills 2: './labs/pico_playlist_general_2.md'
@@ -41,6 +42,8 @@ nav:
       - forensics playlist (picoCTF): './labs/pico_playlist_forensics.md'
     - Steganogrphy:
       - pecan_stego: './labs/pecan_stego.md'
+    - Reverse Engineering:
+      - All your bases (pecan): './labs/pecan_allbase.md'
 
 # material theme has good documentation and configuration
 theme:

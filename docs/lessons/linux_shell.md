@@ -81,6 +81,19 @@ In the terminal keep in mind:
     1. Using tab to complete a line
     1. Using up arrow to load the last line(s) executed
 
+## Handy scripts
+
+
+- Make a new directory for a challenge
+
+```sh
+cd ~/
+newdir='challenge_name'
+cd ~
+mkdir ~/$newdir
+cd $newdir
+```
+
 ## Handy guides
 
 Do have a look at these if you are struggiling

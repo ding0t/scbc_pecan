@@ -7,6 +7,8 @@ repo_url: 'https://github.com/ding0t/scbc_pecan'
 nav:
   - Home: README.md
 
+  - CTF Strategy: './lessons/ctf_strategy.md'
+
   - Tool cheatsheets: 
     - Tools list: './lessons/tools.md'
     - Linux terminal: './lessons/linux_shell.md'

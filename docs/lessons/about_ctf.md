@@ -62,22 +62,7 @@ _these tools are a must_
 1. [ChatGPT](https://chat.openai.com/)
 
 
-## CTF strategy
 
-1. Enjoy the challenge
-1. Train hard - practice CTFs
-1. Read the rules! What are the rules on hints, do you lose points?
-1. Focus on a solution - take time to think critically and plan an approach, write it down
-1. Do research 
-1. Take notes - always practice this. Write enough so that you can give the instructions to someone else to follow.
-1. Ask for hints - ask early
-1. Use tools to assist your work, know your core tools
-1. Be aware of [cognitive bias](https://en.wikipedia.org/wiki/List_of_cognitive_biases). 
-    * Sometimes an assumption we have made may be incorrect 
-    * re- read the question slowly. 
-    * Go over your notes, re-read your planned aproach
-1. Be persistant, but know when to move on
-1. Reflect - what worked well, what would you do different?
 
 
 

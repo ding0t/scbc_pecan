@@ -5,11 +5,16 @@
 - try the OSINT category
     - [Kidnapped 1](https://pecanplus.ecusdf.org/?page=challenges&challenge=kidnapped_part_1)
     - [Kidnapped 2](https://pecanplus.ecusdf.org/?page=challenges&challenge=kidnapped_part_2)
-    - [Kidnapped] 3(https://pecanplus.ecusdf.org/?page=challenges&challenge=kidnapped_part_3)
+    - [Kidnapped 3](https://pecanplus.ecusdf.org/?page=challenges&challenge=kidnapped_part_3)
 
 ## CTF practice
 
 - [ASD ANU CTF 2024](https://asdctftwentyfour.ctfd.io/)
+
+## Recognise this sting
+
+1. `QXJlIHlvdSByZWFkeSB0byBDYXB0dXJlIEZsYWdzPw==`
+1. `l3375p34k_15_u53d_t00`
 
 
 

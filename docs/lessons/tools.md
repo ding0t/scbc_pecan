@@ -5,6 +5,12 @@ tags:
 
 ## General
 
+### Data formats
+
+- [dcode](https://www.dcode.fr/en)
+- [boxentriq cipher identifier ](https://www.boxentriq.com/code-breaking/cipher-identifier)
+- [CyberChef](https://gchq.github.io/CyberChef/)
+
 ### Linux terminal skills
 
 Go to the [linux terminal page](./linux_shell.md)

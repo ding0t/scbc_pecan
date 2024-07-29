@@ -21,7 +21,7 @@ nav:
     - Python: './lessons/04_python.md'
     - Web client side: './lessons/05_web_robots_cookies.md'
     - Web server side : './lessons/06_web_server.md'
-    - Cryptography: './lessons/07_crypto_intro.m'
+    - Cryptography: './lessons/07_crypto_intro.md'
     - Forensics: './lessons/08_forensics_intro.md'
     - Steganography: './lessons/09_steganography.md'
     - Reverese Engineering: './lessons/10_re.md'

@@ -46,6 +46,7 @@ nav:
       - pecan_stego: './labs/pecan_stego.md'
     - Reverse Engineering:
       - All your bases (pecan): './labs/pecan_allbase.md'
+      - picoCTF Bit-o-Asm: './labs/pico_re.md'
 
 # material theme has good documentation and configuration
 theme:

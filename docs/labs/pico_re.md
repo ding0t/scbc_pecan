@@ -97,7 +97,8 @@ What is in the `eax` register?
 <details markdown>
 <summary><b> Walkthrough</b></summary>
 
-1. Try using the python interpriter for interactive math!
+1. Track the value of eax back up through the instructions
+1. notice the instructions are not all `mov`!
 
 ```asm
 <+0>:     endbr64 
@@ -108,16 +109,18 @@ What is in the `eax` register?
 <+15>:    mov    DWORD PTR [rbp-0xc],0x9fe1a // used at <+29>
 <+22>:    mov    DWORD PTR [rbp-0x8],0x4    // used at <+32>
 <+29>:    mov    eax,DWORD PTR [rbp-0xc] // eax = 0x9fe1a
-<+32>:    imul   eax,DWORD PTR [rbp-0x8] // 0x9fe1a * 0x4 = 0x27f868   
-<+36>:    add    eax,0x1f5               //  0x27f868 + 0x1f5  = 
+<+32>:    imul   eax,DWORD PTR [rbp-0x8] // eax = 0x9fe1a * 0x4 = 0x27f868   
+<+36>:    add    eax,0x1f5               // eax =  0x27f868 + 0x1f5  = 
 <+41>:    mov    DWORD PTR [rbp-0x4],eax // value at eax moved into rbp-0x4
 <+44>:    mov    eax,DWORD PTR [rbp-0x4] // value at rbp-0x4 moved into eax
 <+47>:    pop    rbp
 <+48>:    ret
 ```
 
+Enter the interactive python by running the command `python3`.
+You can run some code like:
+
 ```py
-# enter the interactive python by running th command `python3`
 a = 0x9fe1a
 b = 0x4
 c = 0x1f5

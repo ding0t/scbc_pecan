@@ -20,80 +20,46 @@ In the terminal keep in mind:
 -   :material-clock-fast:{ .lg .middle } __Essentials__
 
     ---
-    ```sh
-    # usually <CTRL> + <SHIFT> + <t>
-    ```
-    Who am i `id`
+    - Start a terminal: `# usually <CTRL> + <SHIFT> + <t>`
+    - Tab completeion - use it : `TAB`
+    - Who am i `id`
 
 
--   :fontawesome-brands-markdown:{ .lg .middle } __It's just Markdown__
+-   :fontawesome-brands-markdown:{ .lg .middle } __Navigating directories__
+
+    ---
+    - Print working directory: `pwd`
+    - List contents: `ls -lah`
+    - List in a nice tree: `tree <dirname>`
+    - Change directory: `cd <dir name>`
+    - Change to home `cd ~`
+    - Make a new dir: `mkdir <dirname>`
+    - Many tools have a man page: `man <toolname>`
+
+-   :material-format-font:{ .lg .middle } __Permissions__
 
     ---
 
-    Focus on your content and generate a responsive and searchable static site
+    - Show permissions: `ls -la`
+    - Changing permissions: `chmod`
+    - Make it executable: `chmod +x`
 
-    [:octicons-arrow-right-24: Reference](#)
 
--   :material-format-font:{ .lg .middle } __Made to measure__
-
-    ---
-
-    Change the colors, fonts, language, icons, logo and more with a few lines
-
-    [:octicons-arrow-right-24: Customization](#)
-
--   :material-scale-balance:{ .lg .middle } __Open Source, MIT__
+-   :material-scale-balance:{ .lg .middle } __Analysing Files__
 
     ---
 
-    Material for MkDocs is licensed under MIT and available on [GitHub]
-
-    [:octicons-arrow-right-24: License](#)
+    - What type of file: `file <filename>`
+    - Show file metadata: `exiftool <filename>`
+    - Show file content: `cat <filename>`
+    - Show file structure: `binwalk <filename>`
+    - Finding files: `find . -type f -iname "*.txt"`
+    - Download a file: `wget <url>`
 
 </div>
 
 ## Common commands
-
-1. Shortcuts to launch a terminal
-    ```sh
-    # usually <CTRL> + <SHIFT> + <t>
-    ```
-1. Navigating directories 
-    ```sh
-    ls, cd, mkdir, pwd
-    ```
-1. Finding help 
-    ```sh
-    # many tools have a man page, for example
-    man man
-
-    # or try a tools inbuilt help
-    `<command> -h
-    ```
-1. Viewing content of a file 
-    ```sh
-    cat
-    ```
-1. Viewing permissions 
-    ```sh
-    ls -la
-    ```
-1. Changing permissions 
-    ```sh
-    chmod
-
-    #make it executable
-    chmod +x
-    ```
-1. Downloading a file 
-    ```sh
-    wget
-    ```
-1. Finding files
-    ```sh
-    # look for files that have a txt extension, from the current working directory.
-    find . -type f -iname "*.txt"
-    ```
+ 
 1. Grep
     ```sh
     grep

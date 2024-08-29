@@ -39,7 +39,6 @@ In the terminal keep in mind:
 -   :material-format-font:{ .lg .middle } __File actions__
 
     ---
-
     - Finding files: `find . -type f -iname "*.txt"`
     - Show permissions: `ls -la`
     - Changing permissions: `chmod`
@@ -48,10 +47,9 @@ In the terminal keep in mind:
     - Extract a file: `unzip <filename>`
 
 
--   :material-scale-balance:{ .lg .middle } __Analysing Files__
+-   :material-magnify-scan:{ .lg .middle } __Analysing Files__
 
     ---
-
     Remember binary files are different to text files
 
     - What type of file: `file <filename>`
@@ -61,39 +59,28 @@ In the terminal keep in mind:
     - Find content in a file: ` grep -ir findme <filename>`
     - Show strings in a file: `strings <filename>`
 
+-   :material-script:{ .lg .middle } __Script__
+
+    ---
+    Make a new directory for a challenge:
+
+    ```sh
+    cd ~/
+    newdir='challenge_name'
+    cd ~
+    mkdir ~/$newdir
+    cd $newdir
+    ```
+
+
+-   :material-scale-balance:{ .lg .middle } __Connect__
+
+    ---
+    - get a shell on another system: `ssh <user@<host>`
+    - Connect to an open port with netcat: `nc <IP>  <PORT>`
+
+
 </div>
-
-## Common commands
- 
-1. Grep
-    ```sh
-    grep
-    ```
-
-1. Accessing another system over the network 
-    ```sh
-    # use netcat
-    nc <IP>  <PORT>
-
-    # get a shell on another system
-    ssh <user@<host>
-    ```
-1. Use shortcuts
-    1. Using tab to complete a line
-    1. Using up arrow to load the last line(s) executed
-
-## Handy scripts
-
-
-- Make a new directory for a challenge
-
-```sh
-cd ~/
-newdir='challenge_name'
-cd ~
-mkdir ~/$newdir
-cd $newdir
-```
 
 ## Handy guides
 

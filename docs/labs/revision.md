@@ -1,5 +1,13 @@
 # Revision
 
+TODO
+- playbook examples to learn
+- command line trophies (grep with regex, cat, ls, file, binwalk, exiftool, dd)
+- converting file formats (bin, utf8, hex, b64, rot)
+- working in python
+
+
+
 ## [PECAN+ practice challenges](https://pecanplus.ecusdf.org/?page=challenges)
 
 - try the OSINT category

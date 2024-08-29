@@ -15,6 +15,43 @@ In the terminal keep in mind:
 1. Permissions - do you need to use sudo
 1. Output - know where your output will go
 
+<div class="grid cards" markdown>
+
+-   :material-clock-fast:{ .lg .middle } __Essentials__
+
+    ---
+    ```sh
+    # usually <CTRL> + <SHIFT> + <t>
+    ```
+    Who am i `id`
+
+
+-   :fontawesome-brands-markdown:{ .lg .middle } __It's just Markdown__
+
+    ---
+
+    Focus on your content and generate a responsive and searchable static site
+
+    [:octicons-arrow-right-24: Reference](#)
+
+-   :material-format-font:{ .lg .middle } __Made to measure__
+
+    ---
+
+    Change the colors, fonts, language, icons, logo and more with a few lines
+
+    [:octicons-arrow-right-24: Customization](#)
+
+-   :material-scale-balance:{ .lg .middle } __Open Source, MIT__
+
+    ---
+
+    Material for MkDocs is licensed under MIT and available on [GitHub]
+
+    [:octicons-arrow-right-24: License](#)
+
+</div>
+
 ## Common commands
 
 1. Shortcuts to launch a terminal
@@ -96,7 +133,7 @@ cd $newdir
 
 ## Handy guides
 
-Do have a look at these if you are struggiling
+Do have a look at these if you are looking for more
 
 * [Linux command line for beginners](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview)
 * [Essential Linux commands](https://itsfoss.com/essential-ubuntu-commands/)

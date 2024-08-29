@@ -36,25 +36,30 @@ In the terminal keep in mind:
     - Make a new dir: `mkdir <dirname>`
     - Many tools have a man page: `man <toolname>`
 
--   :material-format-font:{ .lg .middle } __Permissions__
+-   :material-format-font:{ .lg .middle } __File actions__
 
     ---
 
+    - Finding files: `find . -type f -iname "*.txt"`
     - Show permissions: `ls -la`
     - Changing permissions: `chmod`
     - Make it executable: `chmod +x`
+    - Download a file: `wget <url>`
+    - Extract a file: `unzip <filename>`
 
 
 -   :material-scale-balance:{ .lg .middle } __Analysing Files__
 
     ---
 
+    Remember binary files are different to text files
+
     - What type of file: `file <filename>`
     - Show file metadata: `exiftool <filename>`
     - Show file content: `cat <filename>`
     - Show file structure: `binwalk <filename>`
-    - Finding files: `find . -type f -iname "*.txt"`
-    - Download a file: `wget <url>`
+    - Find content in a file: ` grep -ir findme <filename>`
+    - Show strings in a file: `strings <filename>`
 
 </div>
 
@@ -64,10 +69,7 @@ In the terminal keep in mind:
     ```sh
     grep
     ```
-1. Extracting archives
-    ```sh
-    unzip <filename>
-    ```
+
 1. Accessing another system over the network 
     ```sh
     # use netcat
@@ -75,10 +77,6 @@ In the terminal keep in mind:
 
     # get a shell on another system
     ssh <user@<host>
-    ```
-1. Examine file type 
-    ```sh
-    file <filename>
     ```
 1. Use shortcuts
     1. Using tab to complete a line

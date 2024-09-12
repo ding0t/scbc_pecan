@@ -30,8 +30,9 @@ This is your working notes to communicate with yourself and your team. It will s
 The challenge table is a way of quickly understanding where your team is at, and yourself.
 
 | Challenge name | Difficulty (e/m/h) |  Solved (y/n) | Team member A | Team member B | Link | 
+|---|---|---|---|---|---|
 |Congratulations| e| n| x| - | [challenge](https://github.com/MasonCompetitiveCyber/PatriotCTF2023/tree/main/Forensics/congratulations) |
-|||||||
+
 
 ## Strategies on challenge day
 

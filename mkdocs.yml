@@ -27,7 +27,9 @@ nav:
     - Reverese Engineering: './lessons/10_re.md'
 
   - Labs:
-    - Revision: './labs/revision.md'
+    - Revision: 
+      - General revision: './labs/revision.md'
+      - Patriot CTF: './labs/patriot_ctf.md'
     - General (picoCTF):
       - Skills 1: './labs/pico_playlist_general_1.md'
       - Skills 2: './labs/pico_playlist_general_2.md'

@@ -3,7 +3,7 @@
 - Find [Patriot CTF 2023 here](https://github.com/MasonCompetitiveCyber/PatriotCTF2023)
 - This is a good example of similar skill base [a challenger write up](https://d-c4ptain.github.io/posts/PatriotCTF-2023-writeup/)
 
-## Strategies to Prepare
+## 🤺 Strategies to Prepare
 
 
 1. Know your team
@@ -13,7 +13,7 @@
 1. Practice using walkthroughs
 1. Know your strengths and focus on them
 
-## Set up your working notes space
+## 📋 Set up your working notes space
 
 This is your working notes to communicate with yourself and your team. It will speed you up.
 
@@ -34,7 +34,7 @@ The challenge table is a way of quickly understanding where your team is at, and
 |Congratulations| e| n| x| - | [challenge](https://github.com/MasonCompetitiveCyber/PatriotCTF2023/tree/main/Forensics/congratulations) |
 
 
-## Strategies on challenge day
+## 🥷 Strategies on challenge day
 
 1. Triage the challenges quickly. 
     - Know which ones will be easier.

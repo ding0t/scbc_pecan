@@ -19,5 +19,5 @@ function apt_install_tools(){
     done
 	
 }
-sudo apt update && sudo apt upgrade -y && sudo apt_install_tools()
+sudo apt_install_tools
 ```

@@ -13,6 +13,7 @@ nav:
     - Tools list: './lessons/tools.md'
     - Linux terminal: './lessons/linux_shell.md'
     - Generative AI: './lessons/ai_coding.md'
+    - Kali setup: './labs/kali.md'
 
   - Skills: 
     - Welcome: './lessons/01_intro.md'

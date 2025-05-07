@@ -1,3 +1,7 @@
+---
+tags:
+    - picoCTF
+---
 # About
 
 PicoCTF is s site that contains lots of little CTF challenges, they are representative of PECAN+

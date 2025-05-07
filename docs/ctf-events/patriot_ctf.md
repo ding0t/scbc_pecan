@@ -1,4 +1,8 @@
-# Patriot CTF
+---
+tags:
+    - ctf-event
+---
+# Patriot CTF 2023
 
 - Find [Patriot CTF 2023 here](https://github.com/MasonCompetitiveCyber/PatriotCTF2023)
 - This is a good example of similar skill base [a challenger write up](https://d-c4ptain.github.io/posts/PatriotCTF-2023-writeup/)

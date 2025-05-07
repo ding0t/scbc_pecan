@@ -1,10 +1,7 @@
 ---
 tags:
     - picoCTF
-    - web exploitation
-    - client side
-    - cookies
-    - robots
+    - web-exploitation
 ---
 
 ## Resources

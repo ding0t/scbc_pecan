@@ -1,8 +1,7 @@
 ---
 tags:
     - lesson
-    - encoding
-    - general
+    - essential-skills
 ---
 # 02 Character encoding
 

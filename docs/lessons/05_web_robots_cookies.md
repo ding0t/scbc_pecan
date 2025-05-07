@@ -1,18 +1,16 @@
 ---
 tags:
     - lesson
-    - web exploitation
+    - web-exploitation
 ---
 
-# 05 - Web hacking - client side- robots and cookies
-
+# 05 - Web hacking - robots and cookies
 
 ## News
 
-* Introducing the new [site](https://ding0t.github.io/scbc_pecan/)
-* [CTF101](https://ctf101.org/) - great for learning CTF skills
+* 
 
-## Objectives 
+## Objectives
 
 * An introduction to web hacking/explotation
 
@@ -27,10 +25,10 @@ Foundation hacker skills...
 
 ## Web Exploitation
 
-Visiting a web site through a browser started as just static sites like this one to share informatioon globally, 
+Visiting a web site through a browser started as just static sites like this one to share informatioon globally,
 but has grown now to the delivery of interactive applications, tracking, and advertising models.
 
-This extra functionality has significantly incrfeased the amount of complexity and code required for applications. 
+This extra functionality has significantly incrfeased the amount of complexity and code required for applications.
 Hence building a web site now is significantly abstracted from the underlying complexity.
 
 That means - to run a web service, one needs to trust a whole heap of people and their code that you do not know.
@@ -71,7 +69,6 @@ For example [Googlebot](https://developers.google.com/search/docs/crawling-index
 If you have information that you do not want appearing in global search engines - these can be excluded using the standard `robots.txt` file.
 
 Let look at this more in a [lab](../labs/pico_web_client.md#where-are-the-robots)
-
 
 #### 🍪 Cookies
 

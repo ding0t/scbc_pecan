@@ -1,7 +1,7 @@
 ---
 tags:
     - lesson
-    - web exploitation
+    - web-exploitation
 ---
 
 # 06 Web hacking server side

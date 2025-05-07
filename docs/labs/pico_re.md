@@ -1,3 +1,8 @@
+---
+tags:
+    - picoCTF
+    - re
+---
 # PicoCTF Reverse Engineering
 
 These labs demonstrate basic assembly language understanding.

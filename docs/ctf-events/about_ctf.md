@@ -1,10 +1,15 @@
-_Lab01 - about ctf_
+---
+tags:
+    - ctf-event
+---
 
-# Objectives
+# About ctf
+
+## Objectives
 
 1. [About CTF](#about-ctf)
 
-# About CTF
+## About CTF
 
 Capture the flag challenges (CTF) - small challenges to demonstrate cyber concepts and flaws, to build cyber skills.
 
@@ -32,6 +37,7 @@ Most challenges will fall into these catagories
 1. [Steganography]() - the hiding of data in plain view
 1. [Forensics]() - data collectionand analysis, including network, memory and disk
 1. [OSINT]() - the discovery of intelligence in open sources
+
 
 # Essential skillz
 

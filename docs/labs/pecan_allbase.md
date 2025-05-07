@@ -1,4 +1,12 @@
-# [All your base](https://pecanplus.ecusdf.org/?page=challenges&challenge=allyourbase)
+---
+tags:
+    - pecan
+    - re
+---
+
+# Pecan - All your base
+
+[All your base](https://pecanplus.ecusdf.org/?page=challenges&challenge=allyourbase)
 
 This challenge can be solved a couple of ways
 

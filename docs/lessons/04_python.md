@@ -1,9 +1,9 @@
 ---
 tags:
     - lesson
-    - Python
-    - general
+    - essential-skills
 ---
+
 # 🐍 04 - Python
 
 ## Objectives 

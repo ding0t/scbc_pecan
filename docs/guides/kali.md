@@ -1,3 +1,8 @@
+---
+tags:
+	- kali
+---
+
 # Setting up kali
 
 ## Startup script for kasm

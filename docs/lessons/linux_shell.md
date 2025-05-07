@@ -17,49 +17,47 @@ In the terminal keep in mind:
 
 <div class="grid cards" markdown>
 
--   :material-clock-fast:{ .lg .middle } __Essentials__
+- :material-clock-fast:{ .lg .middle } __Essentials__
 
     ---
-    - Start a terminal: `# usually <CTRL> + <SHIFT> + <t>`
-    - Tab completeion - use it : `TAB`
-    - Who am i `id`
+  - Start a terminal: `# usually <CTRL> + <SHIFT> + <t>`
+  - Tab completeion - use it : `TAB`
+  - Who am i `id`
 
-
--   :fontawesome-brands-markdown:{ .lg .middle } __Navigating directories__
-
-    ---
-    - Print working directory: `pwd`
-    - List contents: `ls -lah`
-    - List in a nice tree: `tree <dirname>`
-    - Change directory: `cd <dir name>`
-    - Change to home `cd ~`
-    - Make a new dir: `mkdir <dirname>`
-    - Many tools have a man page: `man <toolname>`
-
--   :material-format-font:{ .lg .middle } __File actions__
+- :fontawesome-brands-markdown:{ .lg .middle } __Navigating directories__
 
     ---
-    - Finding files: `find . -type f -iname "*.txt"`
-    - Show permissions: `ls -la`
-    - Changing permissions: `chmod`
-    - Make it executable: `chmod +x`
-    - Download a file: `wget <url>`
-    - Extract a file: `unzip <filename>`
+  - Print working directory: `pwd`
+  - List contents: `ls -lah`
+  - List in a nice tree: `tree <dirname>`
+  - Change directory: `cd <dir name>`
+  - Change to home `cd ~`
+  - Make a new dir: `mkdir <dirname>`
+  - Many tools have a man page: `man <toolname>`
 
+- :material-format-font:{ .lg .middle } __File actions__
 
--   :material-magnify-scan:{ .lg .middle } __Analysing Files__
+    ---
+  - Finding files: `find . -type f -iname "*.txt"`
+  - Show permissions: `ls -la`
+  - Changing permissions: `chmod`
+  - Make it executable: `chmod +x`
+  - Download a file: `wget <url>`
+  - Extract a file: `unzip <filename>`
+
+- :material-magnify-scan:{ .lg .middle } __Analysing Files__
 
     ---
     Remember binary files are different to text files
 
-    - What type of file: `file <filename>`
-    - Show file metadata: `exiftool <filename>`
-    - Show file content: `cat <filename>`
-    - Show file structure: `binwalk <filename>`
-    - Find content in a file: ` grep -ir findme <filename>`
-    - Show strings in a file: `strings <filename>`
+  - What type of file: `file <filename>`
+  - Show file metadata: `exiftool <filename>`
+  - Show file content: `cat <filename>`
+  - Show file structure: `binwalk <filename>`
+  - Find content in a file: `grep -ir findme <filename>`
+  - Show strings in a file: `strings <filename>`
 
--   :material-script:{ .lg .middle } __Script__
+- :material-script:{ .lg .middle } __Script__
 
     ---
     Make a new directory for a challenge:
@@ -72,13 +70,11 @@ In the terminal keep in mind:
     cd $newdir
     ```
 
-
--   :material-scale-balance:{ .lg .middle } __Connect__
+- :material-scale-balance:{ .lg .middle } __Connect__
 
     ---
-    - get a shell on another system: `ssh <user@<host>`
-    - Connect to an open port with netcat: `nc <IP>  <PORT>`
-
+  - get a shell on another system: `ssh <user@<host>`
+  - Connect to an open port with netcat: `nc <IP>  <PORT>`
 
 </div>
 
@@ -86,7 +82,6 @@ In the terminal keep in mind:
 
 Do have a look at these if you are looking for more
 
-* [Linux command line for beginners](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview)
-* [Essential Linux commands](https://itsfoss.com/essential-ubuntu-commands/)
-* [learn unix](https://www.tutorialspoint.com/unix/index.htm)
-
+- [Linux command line for beginners](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview)
+- [Essential Linux commands](https://itsfoss.com/essential-ubuntu-commands/)
+- [learn unix](https://www.tutorialspoint.com/unix/index.htm)

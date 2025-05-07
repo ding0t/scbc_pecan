@@ -1,4 +1,7 @@
-_An introduction to general skills_
+---
+tags:
+    - guide
+---
 
 # Your hacking station
 

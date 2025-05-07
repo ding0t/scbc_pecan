@@ -3,28 +3,27 @@ tags:
     - tools
 ---
 
-## General
+# Tools - handy ones
 
-### Data formats
+## Data formats
 
 - [dcode](https://www.dcode.fr/en)
-- [boxentriq cipher identifier ](https://www.boxentriq.com/code-breaking/cipher-identifier)
+- [boxentriq cipher identifier](https://www.boxentriq.com/code-breaking/cipher-identifier)
 - [CyberChef](https://gchq.github.io/CyberChef/)
 
-### Linux terminal skills
+## Linux terminal skills
 
 Go to the [linux terminal page](./linux_shell.md)
 
 ![cat](../assets/img/slow_cat.jpg)
 
-
-### [CyberChef](https://gchq.github.io/CyberChef/)
+## [CyberChef](https://gchq.github.io/CyberChef/)
 
 1. Load input
 1. Add recipies
 1. Load an existing recipie
 
-### Python
+## Python
 
 1. Execute python
 1. Use the Python interactive shell
@@ -58,4 +57,3 @@ unzip ghidra_11.1.1_PUBLIC_20240614.zip
 # lets run ghidra
 ./ghidra_11.1.1_PUBLIC_20240614/ghidraRun
 ```
-

@@ -1,4 +1,8 @@
-
+---
+tags:
+    - pecan
+    - web-exploitation
+---
 
 ## [Bite my shiny metal...](https://pecanplus.ecusdf.org/?page=challenges&challenge=bite_my_shiny_metal)
 

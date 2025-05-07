@@ -1,10 +1,7 @@
 ---
 tags:
     - picoCTF
-    - web exploitation
-    - server side
-    - directory traversal
-    - sqli
+    - web-exploitation
 ---
 
 ## Forbidden Paths

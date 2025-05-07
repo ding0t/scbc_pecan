@@ -1,7 +1,6 @@
 ---
 tags:
     - lesson
-    - steganography
     - forensics
 ---
 

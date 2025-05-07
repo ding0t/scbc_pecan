@@ -55,7 +55,7 @@ CTRL+SHIFT+i
 1. Navigate over to the `Application` tab and open up `Storage -> Cookies`
 1. Look at the cookies for the site
 
-<img title="Dev tools" alt="Power_Cookie screenshot" src="../../img/Power_Cookie.png">
+<img title="Dev tools" alt="Power_Cookie screenshot" src="../../assets/img/Power_Cookie.png">
 
 1. notice the cookei `isAdmin` waht is its value? (`0`)
 1. Try changing the value, right click on the value and select `Edit "Value"`
@@ -93,7 +93,7 @@ CTRL+SHIFT+i
 ```
 1. Navigate over to the `Application` tab and open up `Storage -> Cookies`
 
-![Cookies](../img/cookies.png)
+![Cookies](../assets/img/cookies.png)
 
 1. We can see the `Name` and `Value` pairs - note that text content is stored in [base64](../lessons/lesson_03.md)
 1. There is only one cookie on this site named `name` - look at the value (`-1`)

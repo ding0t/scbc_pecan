@@ -5,54 +5,6 @@ repo_url: 'https://github.com/ding0t/scbc_pecan'
 
 # main navigation
 nav:
-  - Home: README.md
-
-  - CTF Strategy 2025: '2025.md'
-  - CTF approaches: './lessons/ctf_strategy.md'
-  - Slides: slides-preview.md
-  - Tags: 'tags.md'
-
-  - Tool cheatsheets: 
-    - Tools list: './lessons/tools.md'
-    - Linux terminal: './lessons/linux_shell.md'
-    - Generative AI: './lessons/ai_coding.md'
-    - Kali setup: './labs/kali.md'
-
-  - Skills: 
-    - Welcome: './lessons/01_intro.md'
-    - Character encoding: './lessons/02_encoding.md'
-    - Base64: './lessons/03_base64.md'
-    - Python: './lessons/04_python.md'
-    - Web client side: './lessons/05_web_robots_cookies.md'
-    - Web server side : './lessons/06_web_server.md'
-    - Cryptography: './lessons/07_crypto_intro.md'
-    - Forensics: './lessons/08_forensics_intro.md'
-    - Stenography: './lessons/09_steganography.md'
-    - Reverse Engineering: './lessons/10_re.md'
-
-  - Labs:
-    - Revision: 
-      - General revision: './labs/revision.md'
-      - Patriot CTF: './labs/patriot_ctf.md'
-    - General (picoCTF):
-      - Skills 1: './labs/pico_playlist_general_1.md'
-      - Skills 2: './labs/pico_playlist_general_2.md'
-      - playlist (picoCTF): './labs/pico_playlist_python.md'
-    - Web:
-      - picoCTF web - client side: './labs/pico_web_client.md'
-      - picoCTF web - server side: './labs/pico_web_server.md'
-      - pecan web: './labs/pecan_web.md'
-    - Crypto:
-      - intro (picoCTF): './labs/pico_crypto.md'
-      - Love letter (PECAN+): './labs/pecan_crypto_love_letter.md'
-      - Rock 'n' Roll (PECAN+): './labs/pecan_crypto_rock-n-roll.md'
-    - Forensics:
-      - forensics playlist (picoCTF): './labs/pico_playlist_forensics.md'
-    - Steganogrphy:
-      - pecan_stego: './labs/pecan_stego.md'
-    - Reverse Engineering:
-      - All your bases (pecan): './labs/pecan_allbase.md'
-      - picoCTF Bit-o-Asm: './labs/pico_re.md'
 
 # material theme has good documentation and configuration
 theme:

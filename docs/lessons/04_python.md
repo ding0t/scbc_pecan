@@ -26,7 +26,7 @@ The labs are self paced - but you can ask for a run through!
 
 -----
 
-![py-logo](../img/python-logo.png)
+![py-logo](../assets/img/python-logo.png)
 
 
 ## What is Python

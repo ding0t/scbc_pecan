@@ -44,7 +44,7 @@ Different data types and uses typically vary in sensitivity across the three. Fo
 
 Participating in this series will give you some skills to protect your data, and an idea of what a career in cyber can include.
 
-![image](../img/Security-meme-35.png)
+![image](../assets/img/Security-meme-35.png)
 
 ---
 
@@ -94,4 +94,4 @@ You will learn some techniques that can be used in the hacking of systems. This 
 
 ---
 
-![Aussie hackers](../img/aussie-hackers-arrested.png)
+![Aussie hackers](../assets/img/aussie-hackers-arrested.png)

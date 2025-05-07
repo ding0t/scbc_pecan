@@ -15,7 +15,7 @@ tags:
 
 Go to the [linux terminal page](./linux_shell.md)
 
-![cat](../img/slow_cat.jpg)
+![cat](../assets/img/slow_cat.jpg)
 
 
 ### [CyberChef](https://gchq.github.io/CyberChef/)

@@ -23,7 +23,7 @@ Work through the picoCTF general playlist to learn
 1. numeric *representation* in differnt number bases (2,10,16) - they all represent the exact same underlying binary value in the computer but look different.
 1. *encoding* - a means of using binary to store text values. There are differnt encoding schemes, the most common in English is ASCII (7bit) now superseded by UTF-8 (8 bit)
 
-![ascii](../img/ascii_table.webp)
+![ascii](../assets/img/ascii_table.webp)
 
 ## Lab
 

@@ -6,9 +6,46 @@ on:
       - main
 permissions:
   contents: write
+env:
+  MARP_SRC_DIR: 'docs/slides'
+  MARP_BLD_DIR: 'docs/slides'
+
 jobs:
-  deploy:
+
+  marp-build:
     runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Marp Build (README)
+        uses: docker://marpteam/marp-cli:v1.7.0
+        with:
+          args: -I ${{env.MARP_SRC_DIR}}/ -o ${{env.MARP_BLD_DIR}}/ --html
+        env:
+          MARP_USER: root:root
+
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: marp-slides
+          path: ${{env.MARP_BLD_DIR}}/**
+
+      - name: Configure git user
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+      - name: Stage build files
+        run: git add ${{env.MARP_BLD_DIR}}/**
+      - name: Commit changed files
+        run: git commit -m "CI updating presentation files." 
+      - name: Push build
+        run: git push origin main
+
+
+  deploy-mkdocs:
+    runs-on: ubuntu-latest
+    needs: marp-build
     steps:
       - uses: actions/checkout@v4
       - name: Configure Git Credentials

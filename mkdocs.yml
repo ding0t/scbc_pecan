@@ -7,7 +7,9 @@ repo_url: 'https://github.com/ding0t/scbc_pecan'
 nav:
   - Home: README.md
 
+  - CTFTime: ctftime.md
   - CTF Strategy: './lessons/ctf_strategy.md'
+  - Tags: 'tags.md'
 
   - Tool cheatsheets: 
     - Tools list: './lessons/tools.md'
@@ -24,8 +26,8 @@ nav:
     - Web server side : './lessons/06_web_server.md'
     - Cryptography: './lessons/07_crypto_intro.md'
     - Forensics: './lessons/08_forensics_intro.md'
-    - Steganography: './lessons/09_steganography.md'
-    - Reverese Engineering: './lessons/10_re.md'
+    - Stenography: './lessons/09_steganography.md'
+    - Reverse Engineering: './lessons/10_re.md'
 
   - Labs:
     - Revision: 

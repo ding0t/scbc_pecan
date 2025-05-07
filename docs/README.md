@@ -28,7 +28,8 @@ Learn how systems are hacked to protect our secrets. We will aim to cover using 
 1. Open source intelligence operation (OSINT)
 
 ## Resources
-* [PECAN+ prior challenges](https://pecanplus.ecusri.org/?page=challenges)
-* [picoCTF gym](https://play.picoctf.org/practice)
-* [CTF101](https://ctf101.org/) - great for learning CTF skills
+
+- [PECAN+ prior challenges](https://pecanplus.ecusri.org/?page=challenges)
+- [picoCTF gym](https://play.picoctf.org/practice)
+- [CTF101](https://ctf101.org/) - great for learning CTF skills
 

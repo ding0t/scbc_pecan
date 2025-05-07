@@ -85,6 +85,7 @@ Penalty: 2 years imprisonment.
 
     (b) to which access is restricted by an access control system associated with a function of the computer.
  ```
+
 ---
 
 However, without understanding how the systems are broken into, or testing the controls in place, we are struggling to defend our data as cyber security professionals. So with approprate approvals in place, that is you have written approval to exploit a security control(s), ethical hacking is the application of cyber dark arts to ensure we can protect our systems from those who wish to do them harm.

@@ -1,6 +1,6 @@
 # Welcome to SCBC PECAN
 
-Training material for the Australian [PECAN+ CTF](https://pecanplus.ecusdf.org/) competition for [South Coast Coast Baptist College](https://www.scbc.wa.edu.au/) in sunny Perth, Western Australia. 
+Training material for the Australian [PECAN+ CTF](https://pecanplus.ecusdf.org/) competition for [South Coast Coast Baptist College](https://www.scbc.wa.edu.au/) in sunny Perth, Western Australia.
 
 It contains a series of lessons based on lab work in picoCTF.
 
@@ -13,7 +13,7 @@ Learning by doing. Doing the CTF challenges builds good foundational skills, and
 1. Ability to do labs from home.
 1. Each lab completes a CTF challenge.
 1. Key learning outcomes identified, with ethics and transferable skills
-   
+
 ## Lessons and labs
 
 Learn how systems are hacked to protect our secrets. We will aim to cover using CTFs and a selection of tools to learn:
@@ -32,4 +32,3 @@ Learn how systems are hacked to protect our secrets. We will aim to cover using 
 - [PECAN+ prior challenges](https://pecanplus.ecusri.org/?page=challenges)
 - [picoCTF gym](https://play.picoctf.org/practice)
 - [CTF101](https://ctf101.org/) - great for learning CTF skills
-

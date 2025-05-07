@@ -1,24 +1,22 @@
 _Lab01 - about ctf_
 
 # Objectives
+
 1. [About CTF](#about-ctf)
 
-
-
 # About CTF
+
 Capture the flag challenges (CTF) - small challenges to demonstrate cyber concepts and flaws, to build cyber skills.
 
 ## Why CTF
 
 Cyber security requires a problem solvers mindset. Some things can be automated, some can be made into processes, but to be on the leading edge one must learn the art of being a problem solver.
 
-
 ## Flags
 
-A flag is text that is enetered to the CTF platform demonstrate you have solved the CTF. 
+A flag is text that is enetered to the CTF platform demonstrate you have solved the CTF.
 
 ⚠️ Be aware of any special formatting required
-
 
 ## Common challenge types
 
@@ -35,7 +33,6 @@ Most challenges will fall into these catagories
 1. [Forensics]() - data collectionand analysis, including network, memory and disk
 1. [OSINT]() - the discovery of intelligence in open sources
 
-
 # Essential skillz
 
 1. [Reading carefully]()
@@ -44,9 +41,11 @@ Most challenges will fall into these catagories
 1. [Command-line-fu]()
 
 # Essential tools
+
 _a fool with a tool is still a fool_ Grady Booch - Software Engineer
 
 ## Core tools
+
 _these tools are a must_
 
 1. [Python - scripting language](https://www.python.org/)
@@ -55,16 +54,8 @@ _these tools are a must_
 
 ## Advanced tools
 
-1. [Boxentriq  - ](https://www.boxentriq.com/)
+1. [Boxentriq  -](https://www.boxentriq.com/)
 1. [Ghidra - reverse engineering](https://ghidra-sre.org/)
 1. [wxHexEditor - hex editor]
 1. [Wireshark](https://www.wireshark.org/)
 1. [ChatGPT](https://chat.openai.com/)
-
-
-
-
-
-
-
-

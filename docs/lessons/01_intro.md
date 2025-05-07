@@ -3,10 +3,9 @@ tags:
     - lesson
     - ctf
 ---
-# Welcome to PECAN training!
+# Welcome to PECAN training
 
 Welcome to the first week of PECAN training. The aim of these training sessions is to get you ready to compete, but most importantly, you will learn some valuable skills along the way.
-
 
 # Objectives
 
@@ -18,9 +17,11 @@ Welcome to the first week of PECAN training. The aim of these training sessions 
 1. [pico playlist - general](../labs/pico_playlist_general_1.md)
 
 # About cyber security
+
 Our objective with these modules is to learn more about cyber security and have fun doing it!
 
 Cyber security typically involves the CIA of data:
+>
 > 1. **Confidentiality** - my data can only been seen by those authorised.
 > 1. **Integrity**- my data can only be changed by those authorised.
 > 1. **Availability** - I can access my data when I need it.
@@ -31,10 +32,9 @@ Participating in this series will give you some skills to protect your data, and
 
 ![image](../img/Security-meme-35.png)
 
-
 # Ethical hacking
 
-Hacking now refers to unauthorised computer access, this is colloquially known as _blackhat hacking_.  **Breaking into computers is wrong (illegal) when not authorised.**  For example, according to the [Cybercrime Act 2001 parts 10.7](https://www.legislation.gov.au/C2004A00937/latest) 
+Hacking now refers to unauthorised computer access, this is colloquially known as _blackhat hacking_.  **Breaking into computers is wrong (illegal) when not authorised.**  For example, according to the [Cybercrime Act 2001 parts 10.7](https://www.legislation.gov.au/C2004A00937/latest)
 
 ```
 478.1  Unauthorised access to, or modification of, restricted data

@@ -8,7 +8,6 @@
 
 1. Know your team
 1. Set up your challenge work space
-
 1. Review any areas you are unsure of - use the PicoCTF videos
 1. Practice using walkthroughs
 1. Know your strengths and focus on them

@@ -48,10 +48,9 @@ Response looks good! `The file cwd.php has been uploaded Path: uploads/cwd.php`
 
 
 Now browse there...
+Success! It printed our working directory - we have code execution in the context of the web server!
 
-Success!
-
-So we have:
+This looks something like the following:
 
 ```mermaid
 sequenceDiagram
@@ -83,11 +82,16 @@ Hmm, no permissions
 
 ## Ok sudo list me root
 
-Lets try this as a system call. 
+Lets try this as a system call...with sudo.
 
 !!! note "Security practice tip!"
 
     A secure web server will block system calls in the php config.
+
+!!! note "Security practice tip!"
+
+    For sudo to work, the web server user will have been added to sudoers.
+    That is not normal. If it was nto so, we would need some means to privilege escalate
 
 ```php
 <?php
@@ -97,4 +101,4 @@ system('sudo ls -l /root'); // Replace 'ls -l' with your desired command
 
 Success!
 
-Ok now try and get the contents of the flag!
+Ok now try and get the contents of the flag yourself!

@@ -9,7 +9,7 @@ tags:
 
 ## Get your vpn profile
 
-1. Top right -> select your profile -> vpn settings
+1. Top right -> select your profile -> [vpn settings](https://academy.hackthebox.com/vpn)
 1. Select a VPN profile
     - US Academy 6
     - UDP 1337

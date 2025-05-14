@@ -4,7 +4,7 @@ tags:
     - essential-skills
 ---
 
-# 🐍 04 - Python
+#  04 Python 🐍
 
 ## Objectives 
 

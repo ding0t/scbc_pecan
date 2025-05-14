@@ -3,7 +3,7 @@ tags:
     - lesson
     - ctf
 ---
-# Welcome to PECAN training
+# 01 Welcome to PECAN training
 
 Welcome to the first week of PECAN training. The aim of these training sessions is to get you ready to compete, but most importantly, you will learn some valuable skills along the way.
 

@@ -4,17 +4,16 @@ tags:
     - web-exploitation
 ---
 
-# No Sanity
+# n0s4n1ty 1
 
-
-A developer has added profile picture upload functionality to a website. However, the implementation is flawed, and it presents an opportunity for you. Your mission, should you choose to accept it, is to navigate to the provided web page and locate the file upload area. Your ultimate goal is to find the hidden flag located in the /root directory.
+"A developer has added profile picture upload functionality to a website. However, the implementation is flawed, and it presents an opportunity for you. Your mission, should you choose to accept it, is to navigate to the provided web page and locate the file upload area. Your ultimate goal is to find the hidden flag located in the /root directory."
 
 ## Reading the challenge hints
 
 - no sanity; likely no input sanitisation
 - focus is the upload functionality
-- difficulty of the cahllenge is basic; so look for web exploits
-- process given
+- difficulty of the challenge is basic; so don't expect this to be too complex
+- process we are given to follow:
     1. locate file upload area
     1. Find flag in `/root`
 
@@ -33,7 +32,7 @@ So maybe the site may not check file upload type, and allow us to upload executa
 
 ### Test a file upload of a txt file
 
-Create a php file to test our theory
+Create a php file to test our theory with content like the following. Save it with a `.php` expension
 
 ```php
 <?php

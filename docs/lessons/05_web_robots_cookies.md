@@ -4,7 +4,7 @@ tags:
     - web-exploitation
 ---
 
-# 05 - Web hacking - robots and cookies
+# 05 Web hacking - robots and cookies
 
 ## News
 

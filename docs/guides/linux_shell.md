@@ -1,4 +1,9 @@
-## Essential skills
+---
+tags:
+    - guide
+---
+
+# Essential linux shell skills
 
 Allot of the picoCTF challenges require skills in the Linux command line tools. Embrace it, and practice.
 

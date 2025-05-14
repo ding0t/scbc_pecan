@@ -4,7 +4,7 @@ tags:
     - crypto
 ---
 
-# Intro to cryptography
+# 07 Intro to cryptography
 
 First, a good resource is [crypto-it](https://www.crypto-it.net/eng/simple/index.html)
 

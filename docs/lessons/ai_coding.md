@@ -1,4 +1,10 @@
-# Objectives
+---
+tags:
+    - lesson
+    - forensics
+---
+
+# 11 AI
 
 1. Generative AI
 1. [AI ethics](#ai-ethics)

@@ -1,6 +1,6 @@
 ---
 tags:
-    - tools
+    - guide
 ---
 
 # Tools - handy ones

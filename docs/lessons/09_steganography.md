@@ -4,7 +4,7 @@ tags:
     - forensics
 ---
 
-# Steganography
+# 09 Steganography
 
 Hiding data in plain sight. We covered in forensics that there are file formats such as immages, pdf, even filesystems. 
 Each of these formats can be abused somewhat to hide data in either legitimate structures of the format, or by overloading the format without braking it.

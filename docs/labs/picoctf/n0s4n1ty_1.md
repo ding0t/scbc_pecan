@@ -91,7 +91,7 @@ Lets try this as a system call...with sudo.
 !!! note "Security practice tip!"
 
     For sudo to work, the web server user will have been added to sudoers.
-    That is not normal. If it was nto so, we would need some means to privilege escalate
+    That is not normal. If not, we would need some means to privilege escalate
 
 ```php
 <?php

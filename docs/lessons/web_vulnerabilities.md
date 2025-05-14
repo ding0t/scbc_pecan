@@ -1,7 +1,7 @@
 ---
 tags:
     - lesson
-    - web exploitation
+    - web-exploitation
 ---
 
 

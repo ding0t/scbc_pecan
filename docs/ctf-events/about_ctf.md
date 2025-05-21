@@ -1,15 +1,10 @@
 ---
+title: About CTFs
 tags:
     - ctf-event
 ---
 
-# About ctf
-
-## Objectives
-
-1. [About CTF](#about-ctf)
-
-## About CTF
+## What is a CTF
 
 Capture the flag challenges (CTF) - small challenges to demonstrate cyber concepts and flaws, to build cyber skills.
 

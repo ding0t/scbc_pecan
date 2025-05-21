@@ -1,3 +1,8 @@
+---
+title: Revision
+tags:
+  - revision
+---
 # Revision
 
 TODO
@@ -16,7 +21,7 @@ TODO
 
 ## CTF practice
 
-- [ASD ANU CTF 2024](https://asdctftwentyfour.ctfd.io/)
+- [ASD ANU CTF 2024](https://asdctftwentyfour.ctfd.io/) _site now down_
 
 ## Recognise this sting
 

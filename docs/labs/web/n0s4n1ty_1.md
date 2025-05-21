@@ -19,7 +19,7 @@ tags:
 
 ## Research
 
-- [bing search](https://letmegooglethat.com/?q=web+hacking+file+uploads+not+sanisiting)
+- [LMGTFY](https://letmegooglethat.com/?q=web+hacking+file+uploads+not+sanisiting)
 - [likely hit](https://exploit-notes.hdks.org/exploit/web/security-risk/file-upload-attack/)
 
 So maybe the site may not check file upload type, and allow us to upload executable content to the server

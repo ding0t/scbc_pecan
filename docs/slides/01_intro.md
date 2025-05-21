@@ -88,9 +88,9 @@ Penalty: 2 years imprisonment.
 
 ---
 
-However, without understanding how the systems are broken into, or testing the controls in place, we are struggling to defend our data as cyber security professionals. So with approprate approvals in place, that is you have written approval to exploit a security control(s), ethical hacking is the application of cyber dark arts to ensure we can protect our systems from those who wish to do them harm.
+However, without understanding how the systems are broken into, or testing the controls in place, we are struggling to defend our data as cyber security professionals. So with appropriate approvals in place, that is you have written approval to exploit a security control(s), ethical hacking is the application of cyber dark arts to ensure we can protect our systems from those who wish to do them harm.
 
-You will learn some techniques that can be used in the hacking of systems. This is a privilige not to be abused.
+You will learn some techniques that can be used in the hacking of systems. This is a privilege not to be abused.
 
 ---
 

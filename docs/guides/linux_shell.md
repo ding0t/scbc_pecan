@@ -1,11 +1,11 @@
 ---
+title: Essential linux shell skills
 tags:
     - guide
 ---
 
-# Essential linux shell skills
 
-Allot of the picoCTF challenges require skills in the Linux command line tools. Embrace it, and practice.
+Allot of the CTF challenges require skills in the Linux command line tools. Embrace it, and practice.
 
 During competition you will have access to a kali workstation. This is a Linux system that you will need to be familiar with.
 
@@ -19,6 +19,15 @@ In the terminal keep in mind:
 1. Scripts - if not made executable can be called by the interpreter directly e.g `python3 ./my_script.py`
 1. Permissions - do you need to use sudo
 1. Output - know where your output will go
+
+## YouTube tutorial
+
+<div class="video-wrapper">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/0-fxQ_4pA1g?si=fcb6247bP9C6DCBx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+
+## Quick reference
 
 <div class="grid cards" markdown>
 

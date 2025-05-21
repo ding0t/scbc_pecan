@@ -11,15 +11,12 @@ Finding files we can read but are not directly linked...
 <details markdown>
 <summary><b>Walkthrough</b></summary>
 
-1. Inspect the page 
-
+1. Inspect the page
 1. Look at where the image is being served from <img source>
-
 1. `Can you find the file` ok lets do that...
-
 1. Can we do directory listing [img source](https://pecanplus.ecusdf.org/challenges/bite_my_shiny_metal) ...
-
 1. Can we brute force ...
+
 ```sh
 # check the help
 gobuster help dir
@@ -31,7 +28,6 @@ gobuster dir -u https://pecanplus.ecusdf.org/challenges/bite_my_shiny_metal -w /
 1. Did you find any files?
 
 </details>
-
 
 ## [Lamb Source 1](https://pecanplus.ecusdf.org/?page=challenges&challenge=lamb_source1)
 
@@ -55,7 +51,7 @@ Find a file...
 
 1. Load source and notice working directory is `challenges/mr_robot/`
 
-1. Can we dir list... https://pecanplus.ecusdf.org/challenges/mr_robot
+1. Can we dir list... <https://pecanplus.ecusdf.org/challenges/mr_robot>
 
 1. lets try a gobuster
 

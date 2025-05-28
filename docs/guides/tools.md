@@ -5,30 +5,70 @@ tags:
 
 # Tools - handy ones
 
-## Data formats
+<div class="grid cards" markdown>
 
-- [dcode](https://www.dcode.fr/en)
-- [boxentriq cipher identifier](https://www.boxentriq.com/code-breaking/cipher-identifier)
-- [CyberChef](https://gchq.github.io/CyberChef/)
+- :material-clock-fast:{ .lg .middle } __Multi tool__
 
-## Linux terminal skills
+    ---
+    - Your go to tool is [CyberChef](https://gchq.github.io/CyberChef/)
+        1. Load input
+        1. Add recipies
+        1. Load an existing recipie
 
-Go to the [linux terminal page](./linux_shell.md)
 
-![cat](../assets/img/slow_cat.jpg)
 
-## [CyberChef](https://gchq.github.io/CyberChef/)
+- :fontawesome-brands-markdown:{ .lg .middle } __Crypto Tools__
 
-1. Load input
-1. Add recipies
-1. Load an existing recipie
+    ---
+    Use these tools to identify encoding or encryption
 
-## Python
+    - [boxentriq - cipher identifier](https://www.boxentriq.com/code-breaking/cipher-identifier)
+        - good for identifying standsard encoding or encryption
+    - [dcode - multi puzzle tool](https://www.dcode.fr/en)
+        - a bit finicky
+        - useful for specific puzzle types
 
-1. Execute python
-1. Use the Python interactive shell
 
-## Web
+
+- :material-format-font:{ .lg .middle } __Web Tools__
+
+    ---
+
+    - Web inspector on the browser (easy)
+        - view page source
+        - cookies
+        - scripts
+    - Gobuster (kali)
+        - directory enumeration (moderate)
+    - BurpSuite (kali)
+        - request inspection and modification (challenging)
+
+
+- :material-magnify-scan:{ .lg .middle } __Analysing Files__
+    Use a linux terminal
+
+    ---
+    - Strings
+    - ExifTool
+
+
+- :material-script:{ .lg .middle } __Scripting__
+Use Python
+
+    ---
+    1. Execute python
+    1. Use the Python interactive shell
+
+
+- :material-scale-balance:{ .lg .middle } __Connect__
+
+    ---
+
+
+</div>
+
+
+
 
 ### Gobuster
 

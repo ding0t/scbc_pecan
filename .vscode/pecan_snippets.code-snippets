@@ -16,9 +16,17 @@
 	// 	"description": "Log output to console"
 	// }
 	"walkthrough_template": {
-		"prefix": ["tt"],
-		"body": ["```yaml\ntitle: []()\ntype: \nskills: \ndifficulty: \nhint: \nstatus: \nflag: []: #\n```\n\n# Challenge\n\n# Facts\n\n# Similar challenges\n\n# Resources\n\n<details>\n<summary><b>Walkthrough</b></summary>\n\n```sh\n\n```\n\n</details>"],
-		"description": "Adds a template"
+		"prefix": ["wt"],
+		"body": [
+			"```yaml",
+			"title: []()",
+			"type: \nskills: \ndifficulty: \nhint: \nstatus: ",
+			"flag: []: #\n```\n\n# Challenge\n\n# Facts\n\n# Similar challenges\n\n# Resources\n",
+			"<details>\n<summary><b>Walkthrough</b></summary>\n",
+			"```sh\n\n```\n",
+			"</details>"
+			],
+		"description": "Adds a walkthrough template"
 	  }
 
 }

@@ -7,16 +7,16 @@ tags:
 
 Welcome to the first week of PECAN training. The aim of these training sessions is to get you ready to compete, but most importantly, you will learn some valuable skills along the way.
 
-# Objectives
+## Objectives
 
 1. [Why learn cyber security](#about-cyber-security)
 1. [Ethical hacking](#ethical-hacking)
-1. [Understand CTF](./about_ctf.md)
-1. [set up hacking station](./about_hacking_station.md)
-1. [set up pico ctf account](./about_picoctf.md)
-1. [pico playlist - general](../labs/pico_playlist_general_1.md)
+1. [Understand CTF](../ctf-events/about_ctf.md)
+1. [set up hacking station](../guides/about_hacking_station.md)
+1. [set up pico ctf account](../ctf-events/about_picoctf.md)
+1. [pico playlist - general](../labs/picoctf/pico_playlist_general_1.md)
 
-# About cyber security
+## About cyber security
 
 Our objective with these modules is to learn more about cyber security and have fun doing it!
 
@@ -32,7 +32,7 @@ Participating in this series will give you some skills to protect your data, and
 
 ![image](../assets/img/Security-meme-35.png)
 
-# Ethical hacking
+## Ethical hacking
 
 Hacking now refers to unauthorised computer access, this is colloquially known as _blackhat hacking_.  **Breaking into computers is wrong (illegal) when not authorised.**  For example, according to the [Cybercrime Act 2001 parts 10.7](https://www.legislation.gov.au/C2004A00937/latest)
 

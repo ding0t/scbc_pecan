@@ -12,7 +12,7 @@ tags:
 1. Top right -> select your profile -> [vpn settings](https://academy.hackthebox.com/vpn)
 1. Select a VPN profile
     - US Academy 6
-    - UDP 1337
+    - TCP 443
 1. Save this and keep it
 1. Connect to the vpn:
 

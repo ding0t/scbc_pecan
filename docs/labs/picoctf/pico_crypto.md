@@ -51,7 +51,7 @@ This is not too bad as far as crypto goes, but will be easier with Python.
 <details markdown>
 <summary><b> Hint</b></summary>
 
-This is  a [one time pad problem ](../lessons/07_cryptography_intro.md#one-time-pad)
+This is  a [one time pad problem ](../../lessons/07_cryptography_intro.md#one-time-pad)
 
 </details>
 

@@ -47,12 +47,3 @@ strings main | less
 ```sh
 objdump -drS main | less
 ```
-
-### Ghidra
-
-[install ghidra](../lessons/tools.md#ghidra)
-
-1. Set up a new project
-1. Open code browser
-1. file -> import file; select our `main` program
-1. analyze

@@ -92,7 +92,7 @@ CTRL+SHIFT+i
 
 ![Cookies](../../assets/img/cookies.png)
 
-1. We can see the `Name` and `Value` pairs - note that text content is stored in [base64](../lessons/lesson_03.md)
+1. We can see the `Name` and `Value` pairs - note that text content is stored in [base64](../../lessons/lesson_03.md)
 1. There is only one cookie on this site named `name` - look at the value (`-1`)
 1. Enter `snickerdoodle` in the `search` field
 1. Observe the cookie value now (`0`)
@@ -112,6 +112,6 @@ and supply a cookie named "name" the values from 0-28 in a loop and print the re
 
 </details>
 
-Some [working code to solve this](../../src/pico_cookies.py)
+Some [working code to solve this](../../../src/pico_cookies.py)
 
 
